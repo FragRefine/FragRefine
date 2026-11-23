@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>FragRefine: Advantage-Guided Parallel Fragment Refinement</title>
+  <meta name="description" content="FragRefine: Advantage-Guided Parallel Fragment Refinement for Physics-Based Dexterous Retargeting across RH56H1 (24D), XHand1 (36D), and Sharpa (56D) hands." />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <!-- Sticky Top Navigation -->
+  <header class="navbar" id="navbar">
+    <div class="container nav-inner">
+      <a class="nav-brand" href="#">
+        <span class="brand-pill">FragRefine</span>
+        <span class="brand-sub" data-i18n="navSub">Dexterous Physics Retargeting</span>
+      </a>
+      <nav class="nav-links" aria-label="Primary Navigation">
+        <a href="#featured" data-i18n="navFeatured">Showcase</a>
+        <a href="#gallery" data-i18n="navGallery">Rollout Gallery</a>
+        <a href="#method" data-i18n="navMethod">Method</a>
+        <a href="#citation" data-i18n="navCite">Citation</a>
+      </nav>
+      <div class="nav-actions">
+        <button id="lang-toggle" class="btn-lang" type="button" aria-label="Toggle language">
+          <span class="lang-opt active" data-lang="en">EN</span>
+          <span class="lang-opt" data-lang="zh">中文</span>
+        </button>
+        <a class="btn-nav-pdf" href="https://github.com/FragRefine/FragRefine" target="_blank" rel="noopener noreferrer" data-i18n="navCode">GitHub</a>
+      </div>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero-section">
+    <div class="container">
+      <div class="venue-row">
+        <span class="venue-badge" data-i18n="venueBadge">Double-Blind Anonymous Project Page</span>
+        <span class="venue-pill-soft" data-i18n="venueSpec">MuJoCo Pure Physics · 24D / 36D / 56D Dexterous Hands</span>
+      </div>
+
+      <h1 class="hero-title" data-i18n="heroTitle">
+        <span class="title-accent">FragRefine</span>: Advantage-Guided Parallel Fragment Refinement for Physics-Based Dexterous Retargeting
+      </h1>
+
+      <p class="hero-acronym" data-i18n="heroSubtitle">
+        Bridging GPU-parallel short-horizon exploration and full-trajectory physical consistency via learned fragment-edit advantage.
+      </p>
+
+      <p class="hero-authors" data-i18n="heroAuthors">
+        Anonymous Authors · Under Double-Blind Review
+      </p>
+
+      <div class="hero-cta-row">
+        <a class="btn-cta btn-primary" href="#gallery" data-i18n="ctaGallery">Explore Rollout Gallery</a>
+        <a class="btn-cta btn-secondary" href="#method" data-i18n="ctaMethod">Method &amp; Diagrams</a>
+        <a class="btn-cta btn-outline" href="https://github.com/FragRefine/FragRefine" target="_blank" rel="noopener noreferrer" data-i18n="ctaCode">GitHub Repo</a>
+      </div>
+
+      <!-- Flagship Hero Trio -->
+      <div class="hero-trio-wrap">
+        <div class="hero-trio-header">
+          <span class="trio-title" data-i18n="trioTitle">Cross-Hand Pure-Physics Highlights</span>
+          <span class="trio-hint" data-i18n="trioHint">Click any card for video + stroboscopic comparison</span>
+        </div>
+        <div class="hero-trio-grid" id="hero-trio"></div>
+      </div>
+
+      <!-- Capability Strip -->
+      <div class="metrics-strip">
+        <div class="metric-card">
+          <div class="metric-val">24D–56D</div>
+          <div class="metric-lbl" data-i18n="mHandsLbl">Multi-Hand DoFs</div>
+          <div class="metric-sub" data-i18n="mHandsSub">RH56H1 · XHand1 · Sharpa</div>
+        </div>
+        <div class="metric-card">
+          <div class="metric-val">3</div>
+          <div class="metric-lbl" data-i18n="mBenchLbl">Manipulation Benchmarks</div>
+          <div class="metric-sub" data-i18n="mBenchSub">ARCTIC · ParaHome · DexYCB</div>
+        </div>
+        <div class="metric-card">
+          <div class="metric-val">2,048</div>
+          <div class="metric-lbl" data-i18n="mEnvLbl">GPU Parallel Envs</div>
+          <div class="metric-sub" data-i18n="mEnvSub">Short-Horizon + Sparse Full Queries</div>
+        </div>
+        <div class="metric-card">
+          <div class="metric-val" data-i18n="mPhysVal">0 Assist</div>
+          <div class="metric-lbl" data-i18n="mPhysLbl">Pure Rigid Contact</div>
+          <div class="metric-sub" data-i18n="mPhysSub">Zero Kinematic Grafting</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Section 1: Multi-Stage Manipulation Showcase -->
+  <section class="section" id="featured">
+    <div class="container">
+      <div class="section-head">
+        <span class="sec-kicker" data-i18n="featKicker">Interactive Showcase</span>
+        <h2 class="sec-title" data-i18n="featTitle">Multi-Stage Articulated &amp; Rigid-Body Manipulation</h2>
+        <p class="sec-desc" data-i18n="featDesc">
+          Switch seamlessly between live physics video rollouts and 4-keyframe sequences across bimanual articulation and in-hand grasping.
+        </p>
+      </div>
+      <div id="featured-rows" class="featured-rows"></div>
+    </div>
+  </section>
+
+  <!-- Section 2: Cross-Hand Rollout Gallery -->
+  <section class="section section-alt" id="gallery">
+    <div class="container">
+      <div class="section-head">
+        <span class="sec-kicker" data-i18n="galleryKicker">Physics Rollout Showcase</span>
+        <h2 class="sec-title" data-i18n="galleryTitle">Cross-Hand &amp; Cross-Dataset Rollouts</h2>
+        <p class="sec-desc" data-i18n="galleryDesc">
+          Filter by benchmark or dexterous embodiment, and toggle between looping MuJoCo rollouts and stroboscopic motion trails.
+        </p>
+      </div>
+
+      <!-- Sticky Interactive Filter Bar -->
+      <div class="matrix-toolbar" id="matrix-toolbar">
+        <div class="toolbar-group">
+          <span class="tb-label" data-i18n="tbDataset">Benchmark</span>
+          <div class="pill-group" id="filter-dataset">
+            <button class="pill active" data-dataset="ALL" data-i18n="dsAll">All</button>
+            <button class="pill pill-arctic" data-dataset="ARCTIC">ARCTIC</button>
+            <button class="pill pill-parahome" data-dataset="PARAHOME">ParaHome</button>
+            <button class="pill pill-dexycb" data-dataset="DEXYCB">DexYCB</button>
+          </div>
+        </div>
+
+        <div class="toolbar-group">
+          <span class="tb-label" data-i18n="tbHand">Embodiment</span>
+          <div class="pill-group" id="filter-hand">
+            <button class="pill active" data-hand="ALL" data-i18n="handAll">All Hands</button>
+            <button class="pill" data-hand="RH56E2">RH56H1 · 24D</button>
+            <button class="pill" data-hand="XHand">XHand1 · 36D</button>
+            <button class="pill" data-hand="Sharpa">Sharpa · 56D</button>
+          </div>
+        </div>
+
+        <div class="toolbar-group">
+          <span class="tb-label" data-i18n="tbView">View</span>
+          <div class="pill-group" id="mode-view">
+            <button class="pill active" data-view="video" data-i18n="viewVideo">Video</button>
+            <button class="pill" data-view="stroboscopic" data-i18n="viewStrobo">Stroboscopic</button>
+          </div>
+        </div>
+
+        <div class="toolbar-group">
+          <span class="tb-label" data-i18n="tbLayout">Layout</span>
+          <div class="pill-group" id="mode-cols">
+            <button class="pill active" data-cols="paper" data-i18n="colsGrouped">Grouped</button>
+            <button class="pill" data-cols="6" data-i18n="cols6">6-Col</button>
+            <button class="pill" data-cols="3" data-i18n="cols3">3-Col</button>
+          </div>
+        </div>
+
+        <div class="toolbar-right">
+          <button id="btn-play-all" class="btn-play-all" type="button" data-i18n="btnPauseAll">Pause All</button>
+        </div>
+      </div>
+
+      <!-- Dynamic Gallery Stage -->
+      <div id="matrix-stage" class="matrix-stage"></div>
+    </div>
+  </section>
+
+  <!-- Section 3: Method Framework -->
+  <section class="section" id="method">
+    <div class="container">
+      <div class="section-head">
+        <span class="sec-kicker" data-i18n="methodKicker">Methodology</span>
+        <h2 class="sec-title" data-i18n="methodTitle">Advantage-Guided Parallel Fragment Refinement</h2>
+        <p class="sec-desc" data-i18n="methodDesc">
+          FragRefine links massive short-horizon fragment sampling with sparse full-trajectory physics verification by learning full-trajectory fragment-edit advantage.
+        </p>
+      </div>
+
+      <!-- Three Core Pillars -->
+      <div class="bento-grid" style="margin-bottom: 24px;">
+        <article class="bento-card accent-violet">
+          <div class="bento-tag" data-i18n="b1Tag">01 · FEAC Critic</div>
+          <h3 data-i18n="b1Title">Fragment-Edit Advantage Learning</h3>
+          <p data-i18n="b1Text">
+            Jointly predicts term-wise full-trajectory cost reductions and pairwise candidate preferences anchored at zero-edit rollouts.
+          </p>
+        </article>
+        <article class="bento-card accent-sky">
+          <div class="bento-tag" data-i18n="b2Tag">02 · Gated Refinement</div>
+          <h3 data-i18n="b2Title">Advantage-Gated Proposal</h3>
+          <p data-i18n="b2Text">
+            Combines short-horizon local descent directions with parent–child FEAC advantage gating before dispatching expensive full rollouts.
+          </p>
+        </article>
+        <article class="bento-card accent-teal">
+          <div class="bento-tag" data-i18n="b3Tag">03 · Query Scheduling</div>
+          <h3 data-i18n="b3Title">Adaptive Query Scheduling</h3>
+          <p data-i18n="b3Text">
+            Allocates sparse full-physics queries across fragments via residual calibration, marginal gain estimation, and UCB selection.
+          </p>
+        </article>
+      </div>
+
+      <!-- Pipeline Overview Figure -->
+      <figure class="fig-showcase fig-zoomable" data-fig="assets/figures/overview.png" data-caption-en="Fig. 1: FragRefine overview — parallel fragment optimization coupled with FEAC evaluation, gated candidate refinement, and adaptive full-trajectory query scheduling." data-caption-zh="图 1：FragRefine 总体框架 — 并行片段探索与零修改锚定片段优势评估器（FEAC）、门控候选精修及自适应查询调度协同闭环。">
+        <img src="assets/figures/overview.png" alt="FragRefine Pipeline Overview" loading="lazy" />
+        <figcaption data-i18n="fig1Cap">
+          Fig. 1: FragRefine framework — bridging short-horizon parallel exploration and global full-physics verification. (Click to zoom)
+        </figcaption>
+      </figure>
+
+      <!-- Two Sub-Architecture Figures -->
+      <div class="fig-subgrid">
+        <figure class="fig-card fig-zoomable" data-fig="assets/figures/advantage.png" data-caption-en="Fig. 2: Zero-edit anchored Fragment-Edit Advantage Critic (FEAC) jointly trained with term-wise cost reduction regression and same-context pairwise preference." data-caption-zh="图 2：零修改锚定的片段修改优势评估器（FEAC）架构 — 联合学习分项整轨迹代价降幅与同上下文候选成对偏好。">
+          <img src="assets/figures/advantage.png" alt="FEAC Architecture" loading="lazy" />
+          <figcaption data-i18n="fig2Cap">
+            Fig. 2: Zero-edit anchored FEAC critic architecture.
+          </figcaption>
+        </figure>
+
+        <figure class="fig-card fig-zoomable" data-fig="assets/figures/refinement.png" data-caption-en="Fig. 3: Advantage-gated candidate refinement and adaptive full-trajectory query scheduling for online trajectory commitment and FEAC adaptation." data-caption-zh="图 3：优势门控候选精修与自适应整轨迹查询调度机制 — 同步服务轨迹提交与 FEAC 在线适配。">
+          <img src="assets/figures/refinement.png" alt="Gated Refinement and Query Scheduling" loading="lazy" />
+          <figcaption data-i18n="fig3Cap">
+            Fig. 3: Advantage-gated candidate refinement and adaptive query scheduling.
+          </figcaption>
+        </figure>
+      </div>
+    </div>
+  </section>
+
+  <!-- Section 4: BibTeX Citation -->
+  <section class="section section-alt" id="citation">
+    <div class="container">
+      <div class="section-head">
+        <span class="sec-kicker" data-i18n="citeKicker">Citation</span>
+        <h2 class="sec-title" data-i18n="citeTitle">BibTeX</h2>
+      </div>
+      <div class="bib-card">
+        <button id="btn-copy-bib" class="btn-copy-bib" type="button" data-i18n="copyBib">Copy BibTeX</button>
+<pre id="bibtex-block">@article{fragrefine2026,
+  title   = {FragRefine: Advantage-Guided Parallel Fragment Refinement for Physics-Based Dexterous Retargeting},
+  author  = {Anonymous Authors},
+  year    = {2026},
+  url     = {https://fragrefine.github.io/FragRefine/}
+}</pre>
+      </div>
+    </div>
+  </section>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <span data-i18n="footerLeft">FragRefine · Anonymous Project Page</span>
+      <span data-i18n="footerRight">Physics-Based Dexterous Retargeting Showcase</span>
+    </div>
+  </footer>
+
+  <!-- Interactive Lightbox Modal -->
+  <div id="lightbox" class="lightbox" aria-hidden="true" role="dialog" aria-modal="true">
+    <div class="lb-backdrop" id="lb-backdrop"></div>
+    <div class="lb-dialog">
+      <div class="lb-header">
+        <div class="lb-title-wrap">
+          <span class="chip" id="lb-badge"></span>
+          <h3 id="lb-title" class="lb-title"></h3>
+        </div>
+        <div class="lb-controls">
+          <button id="lb-prev" class="lb-nav-btn" type="button" aria-label="Previous">&#8592;</button>
+          <button id="lb-next" class="lb-nav-btn" type="button" aria-label="Next">&#8594;</button>
+          <button id="lb-close" class="lb-close-btn" type="button" aria-label="Close">&times;</button>
+        </div>
+      </div>
+      <div class="lb-body" id="lb-body"></div>
+    </div>
+  </div>
+
+  <script src="assets/data/gallery_manifest.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>

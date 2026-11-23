@@ -1,0 +1,3835 @@
+{
+  "macro": [
+    {
+      "id": "m_r0g0",
+      "kind": "macro",
+      "row": 0,
+      "group": 0,
+      "hand": "RH56E2",
+      "hand_short": "RH56H1",
+      "hand_full": "Inspire RH56H1",
+      "hand_full_zh": "因时 RH56H1 (24自由度)",
+      "dof": "24D",
+      "dataset": "ARCTIC",
+      "dataset_name": "ARCTIC",
+      "category": "microwave",
+      "category_en": "Microwave",
+      "category_zh": "微波炉",
+      "label": "ARCTIC · Microwave",
+      "keep_sides": [
+        "left",
+        "right"
+      ],
+      "step_labels": [
+        "1°",
+        "34°",
+        "66°",
+        "97°"
+      ],
+      "motion_en": "1° → 97° hinge",
+      "motion_zh": "开合 1° → 97°",
+      "d_contact_mm": 2.4,
+      "n_frames": 20,
+      "width": 480,
+      "height": 320,
+      "video": "assets/videos/macro/m_r0g0.mp4",
+      "gif": "assets/videos/macro/m_r0g0.gif",
+      "poster": "assets/posters/macro/m_r0g0.jpg",
+      "strip_frames": [
+        "assets/stroboscopic/macro/m_r0g0_f0.jpg",
+        "assets/stroboscopic/macro/m_r0g0_f1.jpg",
+        "assets/stroboscopic/macro/m_r0g0_f2.jpg",
+        "assets/stroboscopic/macro/m_r0g0_f3.jpg"
+      ]
+    },
+    {
+      "id": "m_r0g1",
+      "kind": "macro",
+      "row": 0,
+      "group": 1,
+      "hand": "RH56E2",
+      "hand_short": "RH56H1",
+      "hand_full": "Inspire RH56H1",
+      "hand_full_zh": "因时 RH56H1 (24自由度)",
+      "dof": "24D",
+      "dataset": "ARCTIC",
+      "dataset_name": "ARCTIC",
+      "category": "laptop",
+      "category_en": "Laptop",
+      "category_zh": "笔记本电脑",
+      "label": "ARCTIC · Laptop",
+      "keep_sides": [
+        "left",
+        "right"
+      ],
+      "step_labels": [
+        "50°",
+        "83°",
+        "106°",
+        "134°"
+      ],
+      "motion_en": "50° → 134° hinge",
+      "motion_zh": "开合 50° → 134°",
+      "d_contact_mm": 2.0,
+      "n_frames": 20,
+      "width": 480,
+      "height": 320,
+      "video": "assets/videos/macro/m_r0g1.mp4",
+      "gif": "assets/videos/macro/m_r0g1.gif",
+      "poster": "assets/posters/macro/m_r0g1.jpg",
+      "strip_frames": [
+        "assets/stroboscopic/macro/m_r0g1_f0.jpg",
+        "assets/stroboscopic/macro/m_r0g1_f1.jpg",
+        "assets/stroboscopic/macro/m_r0g1_f2.jpg",
+        "assets/stroboscopic/macro/m_r0g1_f3.jpg"
+      ]
+    },
+    {
+      "id": "m_r1g0",
+      "kind": "macro",
+      "row": 1,
+      "group": 0,
+      "hand": "XHand",
+      "hand_short": "XHand1",
+      "hand_full": "RobotEra XHand1",
+      "hand_full_zh": "星动纪元 XHand1 (36自由度)",
+      "dof": "36D",
+      "dataset": "PARAHOME",
+      "dataset_name": "ParaHome",
+      "category": "washingmachine",
+      "category_en": "Washing Machine",
+      "category_zh": "滚筒洗衣机",
+      "label": "ParaHome · Washer",
+      "keep_sides": [
+        "right"
+      ],
+      "step_labels": [
+        "3°",
+        "30°",
+        "57°",
+        "85°"
+      ],
+      "motion_en": "3° → 85° hinge",
+      "motion_zh": "开合 3° → 85°",
+      "d_contact_mm": 8.6,
+      "n_frames": 20,
+      "width": 480,
+      "height": 320,
+      "video": "assets/videos/macro/m_r1g0.mp4",
+      "gif": "assets/videos/macro/m_r1g0.gif",
+      "poster": "assets/posters/macro/m_r1g0.jpg",
+      "strip_frames": [
+        "assets/stroboscopic/macro/m_r1g0_f0.jpg",
+        "assets/stroboscopic/macro/m_r1g0_f1.jpg",
+        "assets/stroboscopic/macro/m_r1g0_f2.jpg",
+        "assets/stroboscopic/macro/m_r1g0_f3.jpg"
+      ]
+    },
+    {
+      "id": "m_r1g1",
+      "kind": "macro",
+      "row": 1,
+      "group": 1,
+      "hand": "XHand",
+      "hand_short": "XHand1",
+      "hand_full": "RobotEra XHand1",
+      "hand_full_zh": "星动纪元 XHand1 (36自由度)",
+      "dof": "36D",
+      "dataset": "PARAHOME",
+      "dataset_name": "ParaHome",
+      "category": "refrigerator",
+      "category_en": "Refrigerator",
+      "category_zh": "对开冰箱",
+      "label": "ParaHome · Fridge",
+      "keep_sides": [
+        "right"
+      ],
+      "step_labels": [
+        "7°",
+        "38°",
+        "66°",
+        "93°"
+      ],
+      "motion_en": "7° → 93° hinge",
+      "motion_zh": "开合 7° → 93°",
+      "d_contact_mm": 4.4,
+      "n_frames": 20,
+      "width": 480,
+      "height": 320,
+      "video": "assets/videos/macro/m_r1g1.mp4",
+      "gif": "assets/videos/macro/m_r1g1.gif",
+      "poster": "assets/posters/macro/m_r1g1.jpg",
+      "strip_frames": [
+        "assets/stroboscopic/macro/m_r1g1_f0.jpg",
+        "assets/stroboscopic/macro/m_r1g1_f1.jpg",
+        "assets/stroboscopic/macro/m_r1g1_f2.jpg",
+        "assets/stroboscopic/macro/m_r1g1_f3.jpg"
+      ]
+    },
+    {
+      "id": "m_r2g0",
+      "kind": "macro",
+      "row": 2,
+      "group": 0,
+      "hand": "Sharpa",
+      "hand_short": "Sharpa",
+      "hand_full": "Sharpa Wave",
+      "hand_full_zh": "Sharpa Wave (56自由度)",
+      "dof": "56D",
+      "dataset": "DEXYCB",
+      "dataset_name": "DexYCB",
+      "category": "005_tomato_soup_can",
+      "category_en": "Tomato Soup Can",
+      "category_zh": "番茄汤罐头",
+      "label": "DexYCB · Soup Can",
+      "keep_sides": [
+        "right"
+      ],
+      "step_labels": [
+        "t1",
+        "t2",
+        "t3",
+        "t4"
+      ],
+      "motion_en": "+28.9 cm lift",
+      "motion_zh": "抬升 +28.9 cm",
+      "d_contact_mm": 1.2,
+      "n_frames": 20,
+      "width": 480,
+      "height": 320,
+      "video": "assets/videos/macro/m_r2g0.mp4",
+      "gif": "assets/videos/macro/m_r2g0.gif",
+      "poster": "assets/posters/macro/m_r2g0.jpg",
+      "strip_frames": [
+        "assets/stroboscopic/macro/m_r2g0_f0.jpg",
+        "assets/stroboscopic/macro/m_r2g0_f1.jpg",
+        "assets/stroboscopic/macro/m_r2g0_f2.jpg",
+        "assets/stroboscopic/macro/m_r2g0_f3.jpg"
+      ]
+    },
+    {
+      "id": "m_r2g1",
+      "kind": "macro",
+      "row": 2,
+      "group": 1,
+      "hand": "Sharpa",
+      "hand_short": "Sharpa",
+      "hand_full": "Sharpa Wave",
+      "hand_full_zh": "Sharpa Wave (56自由度)",
+      "dof": "56D",
+      "dataset": "DEXYCB",
+      "dataset_name": "DexYCB",
+      "category": "006_mustard_bottle",
+      "category_en": "Mustard Bottle",
+      "category_zh": "芥末酱瓶",
+      "label": "DexYCB · Mustard",
+      "keep_sides": [
+        "right"
+      ],
+      "step_labels": [
+        "t1",
+        "t2",
+        "t3",
+        "t4"
+      ],
+      "motion_en": "+18.5 cm lift",
+      "motion_zh": "抬升 +18.5 cm",
+      "d_contact_mm": 2.6,
+      "n_frames": 20,
+      "width": 480,
+      "height": 320,
+      "video": "assets/videos/macro/m_r2g1.mp4",
+      "gif": "assets/videos/macro/m_r2g1.gif",
+      "poster": "assets/posters/macro/m_r2g1.jpg",
+      "strip_frames": [
+        "assets/stroboscopic/macro/m_r2g1_f0.jpg",
+        "assets/stroboscopic/macro/m_r2g1_f1.jpg",
+        "assets/stroboscopic/macro/m_r2g1_f2.jpg",
+        "assets/stroboscopic/macro/m_r2g1_f3.jpg"
+      ]
+    }
+  ],
+  "micro": [
+    {
+      "id": "g_r0c0",
+      "kind": "micro",
+      "r": 0,
+      "c": 0,
+      "hand": "RH56E2",
+      "hand_short": "RH56H1",
+      "hand_full": "Inspire RH56H1",
+      "hand_full_zh": "因时 RH56H1 (24自由度)",
+      "dof": "24D",
+      "dataset": "ARCTIC",
+      "dataset_name": "ARCTIC",
+      "category": "laptop",
+      "category_en": "Laptop",
+      "category_zh": "笔记本电脑",
+      "keep_sides": [
+        "left",
+        "right"
+      ],
+      "motion_en": "128° → 43° hinge",
+      "motion_zh": "铰接 128° → 43°",
+      "d_contact_mm": 8.5,
+      "trail_uv": [
+        [
+          0.4332,
+          0.2818
+        ],
+        [
+          0.4578,
+          0.2689
+        ],
+        [
+          0.485,
+          0.2645
+        ],
+        [
+          0.5137,
+          0.2691
+        ],
+        [
+          0.5431,
+          0.283
+        ],
+        [
+          0.5717,
+          0.3059
+        ],
+        [
+          0.5986,
+          0.337
+        ],
+        [
+          0.6223,
+          0.3752
+        ],
+        [
+          0.642,
+          0.419
+        ]
+      ],
+      "n_frames": 16,
+      "width": 352,
+      "height": 240,
+      "video": "assets/videos/micro/g_r0c0.mp4",
+      "poster": "assets/posters/micro/g_r0c0.jpg",
+      "stroboscopic": "assets/stroboscopic/micro/g_r0c0.jpg"
+    },
+    {
+      "id": "g_r0c1",
+      "kind": "micro",
+      "r": 0,
+      "c": 1,
+      "hand": "RH56E2",
+      "hand_short": "RH56H1",
+      "hand_full": "Inspire RH56H1",
+      "hand_full_zh": "因时 RH56H1 (24自由度)",
+      "dof": "24D",
+      "dataset": "ARCTIC",
+      "dataset_name": "ARCTIC",
+      "category": "box",
+      "category_en": "Articulated Box",
+      "category_zh": "铰接盒",
+      "keep_sides": [
+        "left",
+        "right"
+      ],
+      "motion_en": "40° → 121° hinge",
+      "motion_zh": "铰接 40° → 121°",
+      "d_contact_mm": 6.0,
+      "trail_uv": [
+        [
+          0.3734,
+          0.3452
+        ],
+        [
+          0.4149,
+          0.3096
+        ],
+        [
+          0.4575,
+          0.2861
+        ],
+        [
+          0.4996,
+          0.2749
+        ],
+        [
+          0.5396,
+          0.276
+        ],
+        [
+          0.5762,
+          0.2887
+        ],
+        [
+          0.6083,
+          0.3118
+        ],
+        [
+          0.6351,
+          0.344
+        ],
+        [
+          0.6561,
+          0.3838
+        ]
+      ],
+      "n_frames": 16,
+      "width": 352,
+      "height": 240,
+      "video": "assets/videos/micro/g_r0c1.mp4",
+      "poster": "assets/posters/micro/g_r0c1.jpg",
+      "stroboscopic": "assets/stroboscopic/micro/g_r0c1.jpg"
+    },
+    {
+      "id": "g_r0c2",
+      "kind": "micro",
+      "r": 0,
+      "c": 2,
+      "hand": "RH56E2",
+      "hand_short": "RH56H1",
+      "hand_full": "Inspire RH56H1",
+      "hand_full_zh": "因时 RH56H1 (24自由度)",
+      "dof": "24D",
+      "dataset": "ARCTIC",
+      "dataset_name": "ARCTIC",
+      "category": "waffleiron",
+      "category_en": "Waffle Iron",
+      "category_zh": "松饼机",
+      "keep_sides": [
+        "left",
+        "right"
+      ],
+      "motion_en": "120° → 28° hinge",
+      "motion_zh": "铰接 120° → 28°",
+      "d_contact_mm": 0.7,
+      "trail_uv": [
+        [
+          0.7094,
+          0.2583
+        ],
+        [
+          0.6765,
+          0.2397
+        ],
+        [
+          0.6399,
+          0.2343
+        ],
+        [
+          0.6011,
+          0.243
+        ],
+        [
+          0.5617,
+          0.2661
+        ],
+        [
+          0.5236,
+          0.3032
+        ],
+        [
+          0.489,
+          0.353
+        ],
+        [
+          0.4596,
+          0.4131
+        ],
+        [
+          0.437,
+          0.4806
+        ]
+      ],
+      "n_frames": 16,
+      "width": 352,
+      "height": 240,
+      "video": "assets/videos/micro/g_r0c2.mp4",
+      "poster": "assets/posters/micro/g_r0c2.jpg",
+      "stroboscopic": "assets/stroboscopic/micro/g_r0c2.jpg"
+    },
+    {
+      "id": "g_r1c0",
+      "kind": "micro",
+      "r": 1,
+      "c": 0,
+      "hand": "RH56E2",
+      "hand_short": "RH56H1",
+      "hand_full": "Inspire RH56H1",
+      "hand_full_zh": "因时 RH56H1 (24自由度)",
+      "dof": "24D",
+      "dataset": "ARCTIC",
+      "dataset_name": "ARCTIC",
+      "category": "espressomachine",
+      "category_en": "Espresso Machine",
+      "category_zh": "意式咖啡机",
+      "keep_sides": [
+        "left",
+        "right"
+      ],
+      "motion_en": "0° → 77° hinge",
+      "motion_zh": "铰接 0° → 77°",
+      "d_contact_mm": 0.6,
+      "trail_uv": [
+        [
+          0.6475,
+          0.6856
+        ],
+        [
+          0.604,
+          0.6798
+        ],
+        [
+          0.5634,
+          0.6702
+        ],
+        [
+          0.5274,
+          0.6574
+        ],
+        [
+          0.497,
+          0.6421
+        ],
+        [
+          0.4733,
+          0.625
+        ],
+        [
+          0.4564,
+          0.6069
+        ],
+        [
+          0.4465,
+          0.5883
+        ],
+        [
+          0.4434,
+          0.57
+        ]
+      ],
+      "n_frames": 16,
+      "width": 352,
+      "height": 240,
+      "video": "assets/videos/micro/g_r1c0.mp4",
+      "poster": "assets/posters/micro/g_r1c0.jpg",
+      "stroboscopic": "assets/stroboscopic/micro/g_r1c0.jpg"
+    },
+    {
+      "id": "g_r1c1",
+      "kind": "micro",
+      "r": 1,
+      "c": 1,
+      "hand": "RH56E2",
+      "hand_short": "RH56H1",
+      "hand_full": "Inspire RH56H1",
+      "hand_full_zh": "因时 RH56H1 (24自由度)",
+      "dof": "24D",
+      "dataset": "ARCTIC",
+      "dataset_name": "ARCTIC",
+      "category": "mixer",
+      "category_en": "Stand Mixer",
+      "category_zh": "立式搅拌机",
+      "keep_sides": [
+        "left",
+        "right"
+      ],
+      "motion_en": "1° → 98° hinge",
+      "motion_zh": "铰接 1° → 98°",
+      "d_contact_mm": 1.8,
+      "trail_uv": [
+        [
+          0.51,
+          0.6094
+        ],
+        [
+          0.4888,
+          0.5751
+        ],
+        [
+          0.4732,
+          0.5313
+        ],
+        [
+          0.464,
+          0.4799
+        ],
+        [
+          0.4621,
+          0.4234
+        ],
+        [
+          0.4677,
+          0.3648
+        ],
+        [
+          0.4808,
+          0.3074
+        ],
+        [
+          0.5007,
+          0.2545
+        ],
+        [
+          0.5261,
+          0.209
+        ]
+      ],
+      "n_frames": 16,
+      "width": 352,
+      "height": 240,
+      "video": "assets/videos/micro/g_r1c1.mp4",
+      "poster": "assets/posters/micro/g_r1c1.jpg",
+      "stroboscopic": "assets/stroboscopic/micro/g_r1c1.jpg"
+    },
+    {
+      "id": "g_r1c2",
+      "kind": "micro",
+      "r": 1,
+      "c": 2,
+      "hand": "RH56E2",
+      "hand_short": "RH56H1",
+      "hand_full": "Inspire RH56H1",
+      "hand_full_zh": "因时 RH56H1 (24自由度)",
+      "dof": "24D",
+      "dataset": "ARCTIC",
+      "dataset_name": "ARCTIC",
+      "category": "notebook",
+      "category_en": "Notebook",
+      "category_zh": "精装笔记本",
+      "keep_sides": [
+        "left",
+        "right"
+      ],
+      "motion_en": "113° → 29° hinge",
+      "motion_zh": "铰接 113° → 29°",
+      "d_contact_mm": 1.1,
+      "trail_uv": [
+        [
+          0.308,
+          0.6938
+        ],
+        [
+          0.2866,
+          0.6688
+        ],
+        [
+          0.2701,
+          0.6379
+        ],
+        [
+          0.2594,
+          0.6017
+        ],
+        [
+          0.255,
+          0.5611
+        ],
+        [
+          0.2577,
+          0.5177
+        ],
+        [
+          0.2676,
+          0.4728
+        ],
+        [
+          0.2846,
+          0.4283
+        ],
+        [
+          0.3084,
+          0.3861
+        ]
+      ],
+      "n_frames": 16,
+      "width": 352,
+      "height": 240,
+      "video": "assets/videos/micro/g_r1c2.mp4",
+      "poster": "assets/posters/micro/g_r1c2.jpg",
+      "stroboscopic": "assets/stroboscopic/micro/g_r1c2.jpg"
+    },
+    {
+      "id": "g_r0c3",
+      "kind": "micro",
+      "r": 0,
+      "c": 3,
+      "hand": "XHand",
+      "hand_short": "XHand1",
+      "hand_full": "RobotEra XHand1",
+      "hand_full_zh": "星动纪元 XHand1 (36自由度)",
+      "dof": "36D",
+      "dataset": "ARCTIC",
+      "dataset_name": "ARCTIC",
+      "category": "capsulemachine",
+      "category_en": "Capsule Machine",
+      "category_zh": "胶囊咖啡机",
+      "keep_sides": [
+        "left",
+        "right"
+      ],
+      "motion_en": "8° → 92° hinge",
+      "motion_zh": "铰接 8° → 92°",
+      "d_contact_mm": 1.6,
+      "trail_uv": [
+        [
+          0.509,
+          0.4153
+        ],
+        [
+          0.5113,
+          0.3944
+        ],
+        [
+          0.5158,
+          0.3738
+        ],
+        [
+          0.5223,
+          0.3542
+        ],
+        [
+          0.5307,
+          0.3365
+        ],
+        [
+          0.5404,
+          0.3212
+        ],
+        [
+          0.5513,
+          0.309
+        ],
+        [
+          0.5629,
+          0.3001
+        ],
+        [
+          0.5748,
+          0.2949
+        ]
+      ],
+      "n_frames": 16,
+      "width": 352,
+      "height": 240,
+      "video": "assets/videos/micro/g_r0c3.mp4",
+      "poster": "assets/posters/micro/g_r0c3.jpg",
+      "stroboscopic": "assets/stroboscopic/micro/g_r0c3.jpg"
+    },
+    {
+      "id": "g_r0c4",
+      "kind": "micro",
+      "r": 0,
+      "c": 4,
+      "hand": "XHand",
+      "hand_short": "XHand1",
+      "hand_full": "RobotEra XHand1",
+      "hand_full_zh": "星动纪元 XHand1 (36自由度)",
+      "dof": "36D",
+      "dataset": "ARCTIC",
+      "dataset_name": "ARCTIC",
+      "category": "box",
+      "category_en": "Articulated Box",
+      "category_zh": "铰接盒",
+      "keep_sides": [
+        "left",
+        "right"
+      ],
+      "motion_en": "17° → 119° hinge",
+      "motion_zh": "铰接 17° → 119°",
+      "d_contact_mm": 7.6,
+      "trail_uv": [
+        [
+          0.6111,
+          0.494
+        ],
+        [
+          0.5997,
+          0.4154
+        ],
+        [
+          0.5779,
+          0.3404
+        ],
+        [
+          0.5472,
+          0.274
+        ],
+        [
+          0.5096,
+          0.2203
+        ],
+        [
+          0.4677,
+          0.1824
+        ],
+        [
+          0.4242,
+          0.162
+        ],
+        [
+          0.3818,
+          0.1595
+        ],
+        [
+          0.3427,
+          0.1739
+        ]
+      ],
+      "n_frames": 16,
+      "width": 352,
+      "height": 240,
+      "video": "assets/videos/micro/g_r0c4.mp4",
+      "poster": "assets/posters/micro/g_r0c4.jpg",
+      "stroboscopic": "assets/stroboscopic/micro/g_r0c4.jpg"
+    },
+    {
+      "id": "g_r0c5",
+      "kind": "micro",
+      "r": 0,
+      "c": 5,
+      "hand": "XHand",
+      "hand_short": "XHand1",
+      "hand_full": "RobotEra XHand1",
+      "hand_full_zh": "星动纪元 XHand1 (36自由度)",
+      "dof": "36D",
+      "dataset": "ARCTIC",
+      "dataset_name": "ARCTIC",
+      "category": "microwave",
+      "category_en": "Microwave",
+      "category_zh": "微波炉",
+      "keep_sides": [
+        "left",
+        "right"
+      ],
+      "motion_en": "3° → 98° hinge",
+      "motion_zh": "铰接 3° → 98°",
+      "d_contact_mm": 3.0,
+      "trail_uv": [
+        [
+          0.5455,
+          0.4505
+        ],
+        [
+          0.5722,
+          0.4695
+        ],
+        [
+          0.5923,
+          0.4911
+        ],
+        [
+          0.6046,
+          0.5146
+        ],
+        [
+          0.6078,
+          0.5391
+        ],
+        [
+          0.6008,
+          0.5635
+        ],
+        [
+          0.583,
+          0.5865
+        ],
+        [
+          0.5545,
+          0.6064
+        ],
+        [
+          0.5162,
+          0.6219
+        ]
+      ],
+      "n_frames": 16,
+      "width": 352,
+      "height": 240,
+      "video": "assets/videos/micro/g_r0c5.mp4",
+      "poster": "assets/posters/micro/g_r0c5.jpg",
+      "stroboscopic": "assets/stroboscopic/micro/g_r0c5.jpg"
+    },
+    {
+      "id": "g_r1c3",
+      "kind": "micro",
+      "r": 1,
+      "c": 3,
+      "hand": "XHand",
+      "hand_short": "XHand1",
+      "hand_full": "RobotEra XHand1",
+      "hand_full_zh": "星动纪元 XHand1 (36自由度)",
+      "dof": "36D",
+      "dataset": "ARCTIC",
+      "dataset_name": "ARCTIC",
+      "category": "waffleiron",
+      "category_en": "Waffle Iron",
+      "category_zh": "松饼机",
+      "keep_sides": [
+        "left",
+        "right"
+      ],
+      "motion_en": "4° → 114° hinge",
+      "motion_zh": "铰接 4° → 114°",
+      "d_contact_mm": 2.5,
+      "trail_uv": [
+        [
+          0.6384,
+          0.6261
+        ],
+        [
+          0.631,
+          0.5442
+        ],
+        [
+          0.6121,
+          0.466
+        ],
+        [
+          0.5832,
+          0.3972
+        ],
+        [
+          0.5464,
+          0.3424
+        ],
+        [
+          0.5047,
+          0.3048
+        ],
+        [
+          0.461,
+          0.286
+        ],
+        [
+          0.418,
+          0.2862
+        ],
+        [
+          0.3783,
+          0.3042
+        ]
+      ],
+      "n_frames": 16,
+      "width": 352,
+      "height": 240,
+      "video": "assets/videos/micro/g_r1c3.mp4",
+      "poster": "assets/posters/micro/g_r1c3.jpg",
+      "stroboscopic": "assets/stroboscopic/micro/g_r1c3.jpg"
+    },
+    {
+      "id": "g_r1c4",
+      "kind": "micro",
+      "r": 1,
+      "c": 4,
+      "hand": "XHand",
+      "hand_short": "XHand1",
+      "hand_full": "RobotEra XHand1",
+      "hand_full_zh": "星动纪元 XHand1 (36自由度)",
+      "dof": "36D",
+      "dataset": "ARCTIC",
+      "dataset_name": "ARCTIC",
+      "category": "espressomachine",
+      "category_en": "Espresso Machine",
+      "category_zh": "意式咖啡机",
+      "keep_sides": [
+        "left",
+        "right"
+      ],
+      "motion_en": "0° → 62° hinge",
+      "motion_zh": "铰接 0° → 62°",
+      "d_contact_mm": 1.7,
+      "trail_uv": [
+        [
+          0.4306,
+          0.3273
+        ],
+        [
+          0.4513,
+          0.3322
+        ],
+        [
+          0.47,
+          0.3384
+        ],
+        [
+          0.4861,
+          0.3457
+        ],
+        [
+          0.4995,
+          0.3541
+        ],
+        [
+          0.5096,
+          0.3636
+        ],
+        [
+          0.5162,
+          0.374
+        ],
+        [
+          0.519,
+          0.3852
+        ],
+        [
+          0.5175,
+          0.3971
+        ]
+      ],
+      "n_frames": 16,
+      "width": 352,
+      "height": 240,
+      "video": "assets/videos/micro/g_r1c4.mp4",
+      "poster": "assets/posters/micro/g_r1c4.jpg",
+      "stroboscopic": "assets/stroboscopic/micro/g_r1c4.jpg"
+    },
+    {
+      "id": "g_r1c5",
+      "kind": "micro",
+      "r": 1,
+      "c": 5,
+      "hand": "XHand",
+      "hand_short": "XHand1",
+      "hand_full": "RobotEra XHand1",
+      "hand_full_zh": "星动纪元 XHand1 (36自由度)",
+      "dof": "36D",
+      "dataset": "ARCTIC",
+      "dataset_name": "ARCTIC",
+      "category": "notebook",
+      "category_en": "Notebook",
+      "category_zh": "精装笔记本",
+      "keep_sides": [
+        "left",
+        "right"
+      ],
+      "motion_en": "49° → 140° hinge",
+      "motion_zh": "铰接 49° → 140°",
+      "d_contact_mm": 3.4,
+      "trail_uv": [
+        [
+          0.4105,
+          0.3162
+        ],
+        [
+          0.4363,
+          0.2891
+        ],
+        [
+          0.4658,
+          0.2731
+        ],
+        [
+          0.4977,
+          0.268
+        ],
+        [
+          0.531,
+          0.2734
+        ],
+        [
+          0.5643,
+          0.2887
+        ],
+        [
+          0.5968,
+          0.3128
+        ],
+        [
+          0.6274,
+          0.3449
+        ],
+        [
+          0.6555,
+          0.3838
+        ]
+      ],
+      "n_frames": 16,
+      "width": 352,
+      "height": 240,
+      "video": "assets/videos/micro/g_r1c5.mp4",
+      "poster": "assets/posters/micro/g_r1c5.jpg",
+      "stroboscopic": "assets/stroboscopic/micro/g_r1c5.jpg"
+    },
+    {
+      "id": "g_r0c6",
+      "kind": "micro",
+      "r": 0,
+      "c": 6,
+      "hand": "Sharpa",
+      "hand_short": "Sharpa",
+      "hand_full": "Sharpa Wave",
+      "hand_full_zh": "Sharpa Wave (56自由度)",
+      "dof": "56D",
+      "dataset": "ARCTIC",
+      "dataset_name": "ARCTIC",
+      "category": "microwave",
+      "category_en": "Microwave",
+      "category_zh": "微波炉",
+      "keep_sides": [
+        "left",
+        "right"
+      ],
+      "motion_en": "4° → 74° hinge",
+      "motion_zh": "铰接 4° → 74°",
+      "d_contact_mm": 1.8,
+      "trail_uv": [
+        [
+          0.5004,
+          0.3959
+        ],
+        [
+          0.5264,
+          0.4051
+        ],
+        [
+          0.5495,
+          0.4161
+        ],
+        [
+          0.5689,
+          0.4288
+        ],
+        [
+          0.5842,
+          0.4431
+        ],
+        [
+          0.5946,
+          0.4587
+        ],
+        [
+          0.5997,
+          0.4756
+        ],
+        [
+          0.5987,
+          0.4934
+        ],
+        [
+          0.5911,
+          0.5117
+        ]
+      ],
+      "n_frames": 16,
+      "width": 352,
+      "height": 240,
+      "video": "assets/videos/micro/g_r0c6.mp4",
+      "poster": "assets/posters/micro/g_r0c6.jpg",
+      "stroboscopic": "assets/stroboscopic/micro/g_r0c6.jpg"
+    },
+    {
+      "id": "g_r0c7",
+      "kind": "micro",
+      "r": 0,
+      "c": 7,
+      "hand": "Sharpa",
+      "hand_short": "Sharpa",
+      "hand_full": "Sharpa Wave",
+      "hand_full_zh": "Sharpa Wave (56自由度)",
+      "dof": "56D",
+      "dataset": "ARCTIC",
+      "dataset_name": "ARCTIC",
+      "category": "espressomachine",
+      "category_en": "Espresso Machine",
+      "category_zh": "意式咖啡机",
+      "keep_sides": [
+        "left",
+        "right"
+      ],
+      "motion_en": "1° → 87° hinge",
+      "motion_zh": "铰接 1° → 87°",
+      "d_contact_mm": 2.9,
+      "trail_uv": [
+        [
+          0.7212,
+          0.5318
+        ],
+        [
+          0.6693,
+          0.5283
+        ],
+        [
+          0.6202,
+          0.5207
+        ],
+        [
+          0.5763,
+          0.5095
+        ],
+        [
+          0.5395,
+          0.4955
+        ],
+        [
+          0.5112,
+          0.4796
+        ],
+        [
+          0.492,
+          0.4627
+        ],
+        [
+          0.4817,
+          0.4454
+        ],
+        [
+          0.4801,
+          0.4286
+        ]
+      ],
+      "n_frames": 16,
+      "width": 352,
+      "height": 240,
+      "video": "assets/videos/micro/g_r0c7.mp4",
+      "poster": "assets/posters/micro/g_r0c7.jpg",
+      "stroboscopic": "assets/stroboscopic/micro/g_r0c7.jpg"
+    },
+    {
+      "id": "g_r0c8",
+      "kind": "micro",
+      "r": 0,
+      "c": 8,
+      "hand": "Sharpa",
+      "hand_short": "Sharpa",
+      "hand_full": "Sharpa Wave",
+      "hand_full_zh": "Sharpa Wave (56自由度)",
+      "dof": "56D",
+      "dataset": "ARCTIC",
+      "dataset_name": "ARCTIC",
+      "category": "laptop",
+      "category_en": "Laptop",
+      "category_zh": "笔记本电脑",
+      "keep_sides": [
+        "left",
+        "right"
+      ],
+      "motion_en": "52° → 98° hinge",
+      "motion_zh": "铰接 52° → 98°",
+      "d_contact_mm": 1.0,
+      "trail_uv": [
+        [
+          0.5162,
+          0.2602
+        ],
+        [
+          0.5016,
+          0.2427
+        ],
+        [
+          0.4863,
+          0.2278
+        ],
+        [
+          0.4706,
+          0.2156
+        ],
+        [
+          0.4547,
+          0.2062
+        ],
+        [
+          0.4386,
+          0.1997
+        ],
+        [
+          0.4228,
+          0.196
+        ],
+        [
+          0.4072,
+          0.1952
+        ],
+        [
+          0.3921,
+          0.1971
+        ]
+      ],
+      "n_frames": 16,
+      "width": 352,
+      "height": 240,
+      "video": "assets/videos/micro/g_r0c8.mp4",
+      "poster": "assets/posters/micro/g_r0c8.jpg",
+      "stroboscopic": "assets/stroboscopic/micro/g_r0c8.jpg"
+    },
+    {
+      "id": "g_r1c6",
+      "kind": "micro",
+      "r": 1,
+      "c": 6,
+      "hand": "Sharpa",
+      "hand_short": "Sharpa",
+      "hand_full": "Sharpa Wave",
+      "hand_full_zh": "Sharpa Wave (56自由度)",
+      "dof": "56D",
+      "dataset": "ARCTIC",
+      "dataset_name": "ARCTIC",
+      "category": "capsulemachine",
+      "category_en": "Capsule Machine",
+      "category_zh": "胶囊咖啡机",
+      "keep_sides": [
+        "right"
+      ],
+      "motion_en": "96° → 27° hinge",
+      "motion_zh": "铰接 96° → 27°",
+      "d_contact_mm": 0.6,
+      "trail_uv": [
+        [
+          0.4016,
+          0.171
+        ],
+        [
+          0.4147,
+          0.175
+        ],
+        [
+          0.4279,
+          0.1825
+        ],
+        [
+          0.4407,
+          0.1934
+        ],
+        [
+          0.453,
+          0.2075
+        ],
+        [
+          0.4642,
+          0.2243
+        ],
+        [
+          0.4742,
+          0.2435
+        ],
+        [
+          0.4826,
+          0.2645
+        ],
+        [
+          0.4893,
+          0.2869
+        ]
+      ],
+      "n_frames": 16,
+      "width": 352,
+      "height": 240,
+      "video": "assets/videos/micro/g_r1c6.mp4",
+      "poster": "assets/posters/micro/g_r1c6.jpg",
+      "stroboscopic": "assets/stroboscopic/micro/g_r1c6.jpg"
+    },
+    {
+      "id": "g_r1c7",
+      "kind": "micro",
+      "r": 1,
+      "c": 7,
+      "hand": "Sharpa",
+      "hand_short": "Sharpa",
+      "hand_full": "Sharpa Wave",
+      "hand_full_zh": "Sharpa Wave (56自由度)",
+      "dof": "56D",
+      "dataset": "ARCTIC",
+      "dataset_name": "ARCTIC",
+      "category": "waffleiron",
+      "category_en": "Waffle Iron",
+      "category_zh": "松饼机",
+      "keep_sides": [
+        "left",
+        "right"
+      ],
+      "motion_en": "156° → 131° hinge",
+      "motion_zh": "铰接 156° → 131°",
+      "d_contact_mm": 4.1,
+      "trail_uv": [
+        [
+          0.1782,
+          0.3337
+        ],
+        [
+          0.1796,
+          0.3152
+        ],
+        [
+          0.1815,
+          0.2969
+        ],
+        [
+          0.1839,
+          0.279
+        ],
+        [
+          0.187,
+          0.2615
+        ],
+        [
+          0.1906,
+          0.2443
+        ],
+        [
+          0.1948,
+          0.2276
+        ],
+        [
+          0.1996,
+          0.2115
+        ],
+        [
+          0.2049,
+          0.1959
+        ]
+      ],
+      "n_frames": 16,
+      "width": 352,
+      "height": 240,
+      "video": "assets/videos/micro/g_r1c7.mp4",
+      "poster": "assets/posters/micro/g_r1c7.jpg",
+      "stroboscopic": "assets/stroboscopic/micro/g_r1c7.jpg"
+    },
+    {
+      "id": "g_r1c8",
+      "kind": "micro",
+      "r": 1,
+      "c": 8,
+      "hand": "Sharpa",
+      "hand_short": "Sharpa",
+      "hand_full": "Sharpa Wave",
+      "hand_full_zh": "Sharpa Wave (56自由度)",
+      "dof": "56D",
+      "dataset": "ARCTIC",
+      "dataset_name": "ARCTIC",
+      "category": "mixer",
+      "category_en": "Stand Mixer",
+      "category_zh": "立式搅拌机",
+      "keep_sides": [
+        "left",
+        "right"
+      ],
+      "motion_en": "3° → 81° hinge",
+      "motion_zh": "铰接 3° → 81°",
+      "d_contact_mm": 1.6,
+      "trail_uv": [
+        [
+          0.5093,
+          0.6224
+        ],
+        [
+          0.5295,
+          0.598
+        ],
+        [
+          0.5463,
+          0.5658
+        ],
+        [
+          0.5588,
+          0.5268
+        ],
+        [
+          0.5665,
+          0.4823
+        ],
+        [
+          0.5688,
+          0.4338
+        ],
+        [
+          0.5654,
+          0.3831
+        ],
+        [
+          0.5565,
+          0.3323
+        ],
+        [
+          0.5423,
+          0.2836
+        ]
+      ],
+      "n_frames": 16,
+      "width": 352,
+      "height": 240,
+      "video": "assets/videos/micro/g_r1c8.mp4",
+      "poster": "assets/posters/micro/g_r1c8.jpg",
+      "stroboscopic": "assets/stroboscopic/micro/g_r1c8.jpg"
+    },
+    {
+      "id": "g_r2c0",
+      "kind": "micro",
+      "r": 2,
+      "c": 0,
+      "hand": "RH56E2",
+      "hand_short": "RH56H1",
+      "hand_full": "Inspire RH56H1",
+      "hand_full_zh": "因时 RH56H1 (24自由度)",
+      "dof": "24D",
+      "dataset": "PARAHOME",
+      "dataset_name": "ParaHome",
+      "category": "refrigerator",
+      "category_en": "Refrigerator",
+      "category_zh": "对开冰箱",
+      "keep_sides": [
+        "left"
+      ],
+      "motion_en": "35° → 86° hinge",
+      "motion_zh": "铰接 35° → 86°",
+      "d_contact_mm": 8.0,
+      "trail_uv": [
+        [
+          0.406,
+          0.2891
+        ],
+        [
+          0.4453,
+          0.2848
+        ],
+        [
+          0.4894,
+          0.2811
+        ],
+        [
+          0.5374,
+          0.2779
+        ],
+        [
+          0.5884,
+          0.2756
+        ],
+        [
+          0.6413,
+          0.274
+        ],
+        [
+          0.6947,
+          0.2733
+        ],
+        [
+          0.7473,
+          0.2735
+        ],
+        [
+          0.7978,
+          0.2746
+        ]
+      ],
+      "n_frames": 16,
+      "width": 352,
+      "height": 240,
+      "video": "assets/videos/micro/g_r2c0.mp4",
+      "poster": "assets/posters/micro/g_r2c0.jpg",
+      "stroboscopic": "assets/stroboscopic/micro/g_r2c0.jpg"
+    },
+    {
+      "id": "g_r2c1",
+      "kind": "micro",
+      "r": 2,
+      "c": 1,
+      "hand": "RH56E2",
+      "hand_short": "RH56H1",
+      "hand_full": "Inspire RH56H1",
+      "hand_full_zh": "因时 RH56H1 (24自由度)",
+      "dof": "24D",
+      "dataset": "PARAHOME",
+      "dataset_name": "ParaHome",
+      "category": "washingmachine",
+      "category_en": "Washing Machine",
+      "category_zh": "滚筒洗衣机",
+      "keep_sides": [
+        "right"
+      ],
+      "motion_en": "13° → 103° hinge",
+      "motion_zh": "铰接 13° → 103°",
+      "d_contact_mm": 9.9,
+      "trail_uv": [
+        [
+          0.6629,
+          0.3265
+        ],
+        [
+          0.6287,
+          0.3205
+        ],
+        [
+          0.582,
+          0.3151
+        ],
+        [
+          0.5248,
+          0.3107
+        ],
+        [
+          0.4599,
+          0.3076
+        ],
+        [
+          0.3915,
+          0.3062
+        ],
+        [
+          0.3241,
+          0.3065
+        ],
+        [
+          0.2623,
+          0.3086
+        ],
+        [
+          0.2097,
+          0.3121
+        ]
+      ],
+      "n_frames": 16,
+      "width": 352,
+      "height": 240,
+      "video": "assets/videos/micro/g_r2c1.mp4",
+      "poster": "assets/posters/micro/g_r2c1.jpg",
+      "stroboscopic": "assets/stroboscopic/micro/g_r2c1.jpg"
+    },
+    {
+      "id": "g_r2c2",
+      "kind": "micro",
+      "r": 2,
+      "c": 2,
+      "hand": "RH56E2",
+      "hand_short": "RH56H1",
+      "hand_full": "Inspire RH56H1",
+      "hand_full_zh": "因时 RH56H1 (24自由度)",
+      "dof": "24D",
+      "dataset": "PARAHOME",
+      "dataset_name": "ParaHome",
+      "category": "sink",
+      "category_en": "Kitchen Sink Cabinet",
+      "category_zh": "橱柜水槽",
+      "keep_sides": [
+        "right"
+      ],
+      "motion_en": "4° → 81° hinge",
+      "motion_zh": "铰接 4° → 81°",
+      "d_contact_mm": 4.1,
+      "trail_uv": [
+        [
+          0.5117,
+          0.2277
+        ],
+        [
+          0.5286,
+          0.2193
+        ],
+        [
+          0.5531,
+          0.2111
+        ],
+        [
+          0.5851,
+          0.2035
+        ],
+        [
+          0.6236,
+          0.1967
+        ],
+        [
+          0.6677,
+          0.1912
+        ],
+        [
+          0.7157,
+          0.1871
+        ],
+        [
+          0.7655,
+          0.1849
+        ],
+        [
+          0.815,
+          0.1845
+        ]
+      ],
+      "n_frames": 16,
+      "width": 352,
+      "height": 240,
+      "video": "assets/videos/micro/g_r2c2.mp4",
+      "poster": "assets/posters/micro/g_r2c2.jpg",
+      "stroboscopic": "assets/stroboscopic/micro/g_r2c2.jpg"
+    },
+    {
+      "id": "g_r3c0",
+      "kind": "micro",
+      "r": 3,
+      "c": 0,
+      "hand": "RH56E2",
+      "hand_short": "RH56H1",
+      "hand_full": "Inspire RH56H1",
+      "hand_full_zh": "因时 RH56H1 (24自由度)",
+      "dof": "24D",
+      "dataset": "PARAHOME",
+      "dataset_name": "ParaHome",
+      "category": "microwave",
+      "category_en": "Microwave",
+      "category_zh": "微波炉",
+      "keep_sides": [
+        "left"
+      ],
+      "motion_en": "13° → 100° hinge",
+      "motion_zh": "铰接 13° → 100°",
+      "d_contact_mm": 7.6,
+      "trail_uv": [
+        [
+          0.7003,
+          0.3675
+        ],
+        [
+          0.6726,
+          0.3637
+        ],
+        [
+          0.6319,
+          0.3602
+        ],
+        [
+          0.5789,
+          0.3573
+        ],
+        [
+          0.5159,
+          0.3553
+        ],
+        [
+          0.4462,
+          0.3543
+        ],
+        [
+          0.3741,
+          0.3545
+        ],
+        [
+          0.3044,
+          0.3558
+        ],
+        [
+          0.2414,
+          0.3581
+        ]
+      ],
+      "n_frames": 16,
+      "width": 352,
+      "height": 240,
+      "video": "assets/videos/micro/g_r3c0.mp4",
+      "poster": "assets/posters/micro/g_r3c0.jpg",
+      "stroboscopic": "assets/stroboscopic/micro/g_r3c0.jpg"
+    },
+    {
+      "id": "g_r3c1",
+      "kind": "micro",
+      "r": 3,
+      "c": 1,
+      "hand": "RH56E2",
+      "hand_short": "RH56H1",
+      "hand_full": "Inspire RH56H1",
+      "hand_full_zh": "因时 RH56H1 (24自由度)",
+      "dof": "24D",
+      "dataset": "PARAHOME",
+      "dataset_name": "ParaHome",
+      "category": "refrigerator",
+      "category_en": "Refrigerator",
+      "category_zh": "对开冰箱",
+      "keep_sides": [
+        "right"
+      ],
+      "motion_en": "28° → 95° hinge",
+      "motion_zh": "铰接 28° → 95°",
+      "d_contact_mm": 3.6,
+      "trail_uv": [
+        [
+          0.3815,
+          0.2288
+        ],
+        [
+          0.408,
+          0.2239
+        ],
+        [
+          0.4392,
+          0.2198
+        ],
+        [
+          0.4744,
+          0.2164
+        ],
+        [
+          0.5124,
+          0.2141
+        ],
+        [
+          0.5521,
+          0.2128
+        ],
+        [
+          0.5922,
+          0.2127
+        ],
+        [
+          0.6312,
+          0.2137
+        ],
+        [
+          0.668,
+          0.2158
+        ]
+      ],
+      "n_frames": 16,
+      "width": 352,
+      "height": 240,
+      "video": "assets/videos/micro/g_r3c1.mp4",
+      "poster": "assets/posters/micro/g_r3c1.jpg",
+      "stroboscopic": "assets/stroboscopic/micro/g_r3c1.jpg"
+    },
+    {
+      "id": "g_r3c2",
+      "kind": "micro",
+      "r": 3,
+      "c": 2,
+      "hand": "RH56E2",
+      "hand_short": "RH56H1",
+      "hand_full": "Inspire RH56H1",
+      "hand_full_zh": "因时 RH56H1 (24自由度)",
+      "dof": "24D",
+      "dataset": "PARAHOME",
+      "dataset_name": "ParaHome",
+      "category": "washingmachine",
+      "category_en": "Washing Machine",
+      "category_zh": "滚筒洗衣机",
+      "keep_sides": [
+        "left"
+      ],
+      "motion_en": "3° → 84° hinge",
+      "motion_zh": "铰接 3° → 84°",
+      "d_contact_mm": 2.2,
+      "trail_uv": [
+        [
+          0.6437,
+          0.3377
+        ],
+        [
+          0.6271,
+          0.3316
+        ],
+        [
+          0.5988,
+          0.3257
+        ],
+        [
+          0.5591,
+          0.3202
+        ],
+        [
+          0.509,
+          0.3155
+        ],
+        [
+          0.4508,
+          0.3119
+        ],
+        [
+          0.3875,
+          0.3098
+        ],
+        [
+          0.323,
+          0.3092
+        ],
+        [
+          0.2612,
+          0.3102
+        ]
+      ],
+      "n_frames": 16,
+      "width": 352,
+      "height": 240,
+      "video": "assets/videos/micro/g_r3c2.mp4",
+      "poster": "assets/posters/micro/g_r3c2.jpg",
+      "stroboscopic": "assets/stroboscopic/micro/g_r3c2.jpg"
+    },
+    {
+      "id": "g_r2c3",
+      "kind": "micro",
+      "r": 2,
+      "c": 3,
+      "hand": "XHand",
+      "hand_short": "XHand1",
+      "hand_full": "RobotEra XHand1",
+      "hand_full_zh": "星动纪元 XHand1 (36自由度)",
+      "dof": "36D",
+      "dataset": "PARAHOME",
+      "dataset_name": "ParaHome",
+      "category": "refrigerator",
+      "category_en": "Refrigerator",
+      "category_zh": "对开冰箱",
+      "keep_sides": [
+        "right"
+      ],
+      "motion_en": "19° → 100° hinge",
+      "motion_zh": "铰接 19° → 100°",
+      "d_contact_mm": 4.8,
+      "trail_uv": [
+        [
+          0.226,
+          0.2694
+        ],
+        [
+          0.2671,
+          0.2598
+        ],
+        [
+          0.3241,
+          0.2509
+        ],
+        [
+          0.3956,
+          0.2434
+        ],
+        [
+          0.4786,
+          0.2379
+        ],
+        [
+          0.5683,
+          0.2347
+        ],
+        [
+          0.6593,
+          0.2343
+        ],
+        [
+          0.7456,
+          0.2366
+        ],
+        [
+          0.8219,
+          0.2413
+        ]
+      ],
+      "n_frames": 16,
+      "width": 352,
+      "height": 240,
+      "video": "assets/videos/micro/g_r2c3.mp4",
+      "poster": "assets/posters/micro/g_r2c3.jpg",
+      "stroboscopic": "assets/stroboscopic/micro/g_r2c3.jpg"
+    },
+    {
+      "id": "g_r2c4",
+      "kind": "micro",
+      "r": 2,
+      "c": 4,
+      "hand": "XHand",
+      "hand_short": "XHand1",
+      "hand_full": "RobotEra XHand1",
+      "hand_full_zh": "星动纪元 XHand1 (36自由度)",
+      "dof": "36D",
+      "dataset": "PARAHOME",
+      "dataset_name": "ParaHome",
+      "category": "washingmachine",
+      "category_en": "Washing Machine",
+      "category_zh": "滚筒洗衣机",
+      "keep_sides": [
+        "left"
+      ],
+      "motion_en": "3° → 68° hinge",
+      "motion_zh": "铰接 3° → 68°",
+      "d_contact_mm": 11.0,
+      "trail_uv": [
+        [
+          0.5829,
+          0.3672
+        ],
+        [
+          0.5684,
+          0.3634
+        ],
+        [
+          0.5466,
+          0.3597
+        ],
+        [
+          0.5176,
+          0.3562
+        ],
+        [
+          0.4817,
+          0.3529
+        ],
+        [
+          0.4399,
+          0.3502
+        ],
+        [
+          0.3933,
+          0.348
+        ],
+        [
+          0.3437,
+          0.3465
+        ],
+        [
+          0.2928,
+          0.3458
+        ]
+      ],
+      "n_frames": 16,
+      "width": 352,
+      "height": 240,
+      "video": "assets/videos/micro/g_r2c4.mp4",
+      "poster": "assets/posters/micro/g_r2c4.jpg",
+      "stroboscopic": "assets/stroboscopic/micro/g_r2c4.jpg"
+    },
+    {
+      "id": "g_r2c5",
+      "kind": "micro",
+      "r": 2,
+      "c": 5,
+      "hand": "XHand",
+      "hand_short": "XHand1",
+      "hand_full": "RobotEra XHand1",
+      "hand_full_zh": "星动纪元 XHand1 (36自由度)",
+      "dof": "36D",
+      "dataset": "PARAHOME",
+      "dataset_name": "ParaHome",
+      "category": "sink",
+      "category_en": "Kitchen Sink Cabinet",
+      "category_zh": "橱柜水槽",
+      "keep_sides": [
+        "right"
+      ],
+      "motion_en": "1° → 81° hinge",
+      "motion_zh": "铰接 1° → 81°",
+      "d_contact_mm": 9.9,
+      "trail_uv": [
+        [
+          0.4771,
+          0.2469
+        ],
+        [
+          0.4906,
+          0.2395
+        ],
+        [
+          0.5118,
+          0.2323
+        ],
+        [
+          0.5407,
+          0.2255
+        ],
+        [
+          0.5766,
+          0.2195
+        ],
+        [
+          0.6183,
+          0.2146
+        ],
+        [
+          0.6642,
+          0.2111
+        ],
+        [
+          0.7123,
+          0.2092
+        ],
+        [
+          0.7602,
+          0.209
+        ]
+      ],
+      "n_frames": 16,
+      "width": 352,
+      "height": 240,
+      "video": "assets/videos/micro/g_r2c5.mp4",
+      "poster": "assets/posters/micro/g_r2c5.jpg",
+      "stroboscopic": "assets/stroboscopic/micro/g_r2c5.jpg"
+    },
+    {
+      "id": "g_r3c3",
+      "kind": "micro",
+      "r": 3,
+      "c": 3,
+      "hand": "XHand",
+      "hand_short": "XHand1",
+      "hand_full": "RobotEra XHand1",
+      "hand_full_zh": "星动纪元 XHand1 (36自由度)",
+      "dof": "36D",
+      "dataset": "PARAHOME",
+      "dataset_name": "ParaHome",
+      "category": "microwave",
+      "category_en": "Microwave",
+      "category_zh": "微波炉",
+      "keep_sides": [
+        "left"
+      ],
+      "motion_en": "35° → 103° hinge",
+      "motion_zh": "铰接 35° → 103°",
+      "d_contact_mm": 5.6,
+      "trail_uv": [
+        [
+          0.6167,
+          0.3937
+        ],
+        [
+          0.5735,
+          0.3906
+        ],
+        [
+          0.5232,
+          0.3879
+        ],
+        [
+          0.4675,
+          0.3859
+        ],
+        [
+          0.4083,
+          0.3847
+        ],
+        [
+          0.3482,
+          0.3843
+        ],
+        [
+          0.2897,
+          0.3848
+        ],
+        [
+          0.2352,
+          0.3861
+        ],
+        [
+          0.1867,
+          0.3882
+        ]
+      ],
+      "n_frames": 16,
+      "width": 352,
+      "height": 240,
+      "video": "assets/videos/micro/g_r3c3.mp4",
+      "poster": "assets/posters/micro/g_r3c3.jpg",
+      "stroboscopic": "assets/stroboscopic/micro/g_r3c3.jpg"
+    },
+    {
+      "id": "g_r3c4",
+      "kind": "micro",
+      "r": 3,
+      "c": 4,
+      "hand": "XHand",
+      "hand_short": "XHand1",
+      "hand_full": "RobotEra XHand1",
+      "hand_full_zh": "星动纪元 XHand1 (36自由度)",
+      "dof": "36D",
+      "dataset": "PARAHOME",
+      "dataset_name": "ParaHome",
+      "category": "refrigerator",
+      "category_en": "Refrigerator",
+      "category_zh": "对开冰箱",
+      "keep_sides": [
+        "right"
+      ],
+      "motion_en": "41° → 86° hinge",
+      "motion_zh": "铰接 41° → 86°",
+      "d_contact_mm": 2.7,
+      "trail_uv": [
+        [
+          0.4182,
+          0.3139
+        ],
+        [
+          0.4573,
+          0.311
+        ],
+        [
+          0.4998,
+          0.3085
+        ],
+        [
+          0.5451,
+          0.3063
+        ],
+        [
+          0.5922,
+          0.3047
+        ],
+        [
+          0.6405,
+          0.3035
+        ],
+        [
+          0.6888,
+          0.303
+        ],
+        [
+          0.7362,
+          0.3029
+        ],
+        [
+          0.7818,
+          0.3035
+        ]
+      ],
+      "n_frames": 16,
+      "width": 352,
+      "height": 240,
+      "video": "assets/videos/micro/g_r3c4.mp4",
+      "poster": "assets/posters/micro/g_r3c4.jpg",
+      "stroboscopic": "assets/stroboscopic/micro/g_r3c4.jpg"
+    },
+    {
+      "id": "g_r3c5",
+      "kind": "micro",
+      "r": 3,
+      "c": 5,
+      "hand": "XHand",
+      "hand_short": "XHand1",
+      "hand_full": "RobotEra XHand1",
+      "hand_full_zh": "星动纪元 XHand1 (36自由度)",
+      "dof": "36D",
+      "dataset": "PARAHOME",
+      "dataset_name": "ParaHome",
+      "category": "washingmachine",
+      "category_en": "Washing Machine",
+      "category_zh": "滚筒洗衣机",
+      "keep_sides": [
+        "right"
+      ],
+      "motion_en": "3° → 62° hinge",
+      "motion_zh": "铰接 3° → 62°",
+      "d_contact_mm": 7.9,
+      "trail_uv": [
+        [
+          0.5954,
+          0.307
+        ],
+        [
+          0.5817,
+          0.3016
+        ],
+        [
+          0.561,
+          0.2961
+        ],
+        [
+          0.5334,
+          0.2908
+        ],
+        [
+          0.499,
+          0.2858
+        ],
+        [
+          0.4585,
+          0.2814
+        ],
+        [
+          0.4129,
+          0.2777
+        ],
+        [
+          0.3635,
+          0.2748
+        ],
+        [
+          0.3119,
+          0.273
+        ]
+      ],
+      "n_frames": 16,
+      "width": 352,
+      "height": 240,
+      "video": "assets/videos/micro/g_r3c5.mp4",
+      "poster": "assets/posters/micro/g_r3c5.jpg",
+      "stroboscopic": "assets/stroboscopic/micro/g_r3c5.jpg"
+    },
+    {
+      "id": "g_r2c6",
+      "kind": "micro",
+      "r": 2,
+      "c": 6,
+      "hand": "Sharpa",
+      "hand_short": "Sharpa",
+      "hand_full": "Sharpa Wave",
+      "hand_full_zh": "Sharpa Wave (56自由度)",
+      "dof": "56D",
+      "dataset": "PARAHOME",
+      "dataset_name": "ParaHome",
+      "category": "refrigerator",
+      "category_en": "Refrigerator",
+      "category_zh": "对开冰箱",
+      "keep_sides": [
+        "left"
+      ],
+      "motion_en": "12° → 68° hinge",
+      "motion_zh": "铰接 12° → 68°",
+      "d_contact_mm": 14.6,
+      "trail_uv": [
+        [
+          0.4372,
+          0.2251
+        ],
+        [
+          0.4532,
+          0.2199
+        ],
+        [
+          0.4735,
+          0.2149
+        ],
+        [
+          0.498,
+          0.2103
+        ],
+        [
+          0.5262,
+          0.2061
+        ],
+        [
+          0.5577,
+          0.2026
+        ],
+        [
+          0.592,
+          0.1998
+        ],
+        [
+          0.6282,
+          0.1977
+        ],
+        [
+          0.6655,
+          0.1966
+        ]
+      ],
+      "n_frames": 16,
+      "width": 352,
+      "height": 240,
+      "video": "assets/videos/micro/g_r2c6.mp4",
+      "poster": "assets/posters/micro/g_r2c6.jpg",
+      "stroboscopic": "assets/stroboscopic/micro/g_r2c6.jpg"
+    },
+    {
+      "id": "g_r2c7",
+      "kind": "micro",
+      "r": 2,
+      "c": 7,
+      "hand": "Sharpa",
+      "hand_short": "Sharpa",
+      "hand_full": "Sharpa Wave",
+      "hand_full_zh": "Sharpa Wave (56自由度)",
+      "dof": "56D",
+      "dataset": "PARAHOME",
+      "dataset_name": "ParaHome",
+      "category": "washingmachine",
+      "category_en": "Washing Machine",
+      "category_zh": "滚筒洗衣机",
+      "keep_sides": [
+        "right"
+      ],
+      "motion_en": "3° → 78° hinge",
+      "motion_zh": "铰接 3° → 78°",
+      "d_contact_mm": 7.8,
+      "trail_uv": [
+        [
+          0.6713,
+          0.3241
+        ],
+        [
+          0.6559,
+          0.3172
+        ],
+        [
+          0.6296,
+          0.3104
+        ],
+        [
+          0.5924,
+          0.304
+        ],
+        [
+          0.5449,
+          0.2984
+        ],
+        [
+          0.4889,
+          0.294
+        ],
+        [
+          0.4268,
+          0.291
+        ],
+        [
+          0.362,
+          0.2897
+        ],
+        [
+          0.2979,
+          0.2902
+        ]
+      ],
+      "n_frames": 16,
+      "width": 352,
+      "height": 240,
+      "video": "assets/videos/micro/g_r2c7.mp4",
+      "poster": "assets/posters/micro/g_r2c7.jpg",
+      "stroboscopic": "assets/stroboscopic/micro/g_r2c7.jpg"
+    },
+    {
+      "id": "g_r2c8",
+      "kind": "micro",
+      "r": 2,
+      "c": 8,
+      "hand": "Sharpa",
+      "hand_short": "Sharpa",
+      "hand_full": "Sharpa Wave",
+      "hand_full_zh": "Sharpa Wave (56自由度)",
+      "dof": "56D",
+      "dataset": "PARAHOME",
+      "dataset_name": "ParaHome",
+      "category": "sink",
+      "category_en": "Kitchen Sink Cabinet",
+      "category_zh": "橱柜水槽",
+      "keep_sides": [
+        "right"
+      ],
+      "motion_en": "15° → 54° hinge",
+      "motion_zh": "铰接 15° → 54°",
+      "d_contact_mm": 13.0,
+      "trail_uv": [
+        [
+          0.4136,
+          0.1662
+        ],
+        [
+          0.3992,
+          0.162
+        ],
+        [
+          0.3826,
+          0.158
+        ],
+        [
+          0.3641,
+          0.1542
+        ],
+        [
+          0.3437,
+          0.1507
+        ],
+        [
+          0.3216,
+          0.1476
+        ],
+        [
+          0.2979,
+          0.1449
+        ],
+        [
+          0.2729,
+          0.1426
+        ],
+        [
+          0.2469,
+          0.1408
+        ]
+      ],
+      "n_frames": 16,
+      "width": 352,
+      "height": 240,
+      "video": "assets/videos/micro/g_r2c8.mp4",
+      "poster": "assets/posters/micro/g_r2c8.jpg",
+      "stroboscopic": "assets/stroboscopic/micro/g_r2c8.jpg"
+    },
+    {
+      "id": "g_r3c6",
+      "kind": "micro",
+      "r": 3,
+      "c": 6,
+      "hand": "Sharpa",
+      "hand_short": "Sharpa",
+      "hand_full": "Sharpa Wave",
+      "hand_full_zh": "Sharpa Wave (56自由度)",
+      "dof": "56D",
+      "dataset": "PARAHOME",
+      "dataset_name": "ParaHome",
+      "category": "microwave",
+      "category_en": "Microwave",
+      "category_zh": "微波炉",
+      "keep_sides": [
+        "left"
+      ],
+      "motion_en": "15° → 91° hinge",
+      "motion_zh": "铰接 15° → 91°",
+      "d_contact_mm": 0.9,
+      "trail_uv": [
+        [
+          0.6956,
+          0.3757
+        ],
+        [
+          0.6675,
+          0.372
+        ],
+        [
+          0.6281,
+          0.3686
+        ],
+        [
+          0.5779,
+          0.3655
+        ],
+        [
+          0.5184,
+          0.3632
+        ],
+        [
+          0.4519,
+          0.3616
+        ],
+        [
+          0.3816,
+          0.3609
+        ],
+        [
+          0.3111,
+          0.3611
+        ],
+        [
+          0.244,
+          0.3623
+        ]
+      ],
+      "n_frames": 16,
+      "width": 352,
+      "height": 240,
+      "video": "assets/videos/micro/g_r3c6.mp4",
+      "poster": "assets/posters/micro/g_r3c6.jpg",
+      "stroboscopic": "assets/stroboscopic/micro/g_r3c6.jpg"
+    },
+    {
+      "id": "g_r3c7",
+      "kind": "micro",
+      "r": 3,
+      "c": 7,
+      "hand": "Sharpa",
+      "hand_short": "Sharpa",
+      "hand_full": "Sharpa Wave",
+      "hand_full_zh": "Sharpa Wave (56自由度)",
+      "dof": "56D",
+      "dataset": "PARAHOME",
+      "dataset_name": "ParaHome",
+      "category": "refrigerator",
+      "category_en": "Refrigerator",
+      "category_zh": "对开冰箱",
+      "keep_sides": [
+        "left"
+      ],
+      "motion_en": "3° → 31° hinge",
+      "motion_zh": "铰接 3° → 31°",
+      "d_contact_mm": 3.6,
+      "trail_uv": [
+        [
+          0.4016,
+          0.245
+        ],
+        [
+          0.4068,
+          0.2421
+        ],
+        [
+          0.4133,
+          0.2391
+        ],
+        [
+          0.4211,
+          0.2362
+        ],
+        [
+          0.4302,
+          0.2332
+        ],
+        [
+          0.4406,
+          0.2304
+        ],
+        [
+          0.4524,
+          0.2276
+        ],
+        [
+          0.4654,
+          0.2249
+        ],
+        [
+          0.4796,
+          0.2222
+        ]
+      ],
+      "n_frames": 16,
+      "width": 352,
+      "height": 240,
+      "video": "assets/videos/micro/g_r3c7.mp4",
+      "poster": "assets/posters/micro/g_r3c7.jpg",
+      "stroboscopic": "assets/stroboscopic/micro/g_r3c7.jpg"
+    },
+    {
+      "id": "g_r3c8",
+      "kind": "micro",
+      "r": 3,
+      "c": 8,
+      "hand": "Sharpa",
+      "hand_short": "Sharpa",
+      "hand_full": "Sharpa Wave",
+      "hand_full_zh": "Sharpa Wave (56自由度)",
+      "dof": "56D",
+      "dataset": "PARAHOME",
+      "dataset_name": "ParaHome",
+      "category": "washingmachine",
+      "category_en": "Washing Machine",
+      "category_zh": "滚筒洗衣机",
+      "keep_sides": [
+        "left"
+      ],
+      "motion_en": "5° → 77° hinge",
+      "motion_zh": "铰接 5° → 77°",
+      "d_contact_mm": 3.3,
+      "trail_uv": [
+        [
+          0.6428,
+          0.3093
+        ],
+        [
+          0.6286,
+          0.3017
+        ],
+        [
+          0.6034,
+          0.2941
+        ],
+        [
+          0.5671,
+          0.2871
+        ],
+        [
+          0.5206,
+          0.281
+        ],
+        [
+          0.4653,
+          0.2761
+        ],
+        [
+          0.4039,
+          0.2729
+        ],
+        [
+          0.3394,
+          0.2715
+        ],
+        [
+          0.2757,
+          0.2722
+        ]
+      ],
+      "n_frames": 16,
+      "width": 352,
+      "height": 240,
+      "video": "assets/videos/micro/g_r3c8.mp4",
+      "poster": "assets/posters/micro/g_r3c8.jpg",
+      "stroboscopic": "assets/stroboscopic/micro/g_r3c8.jpg"
+    },
+    {
+      "id": "g_r4c0",
+      "kind": "micro",
+      "r": 4,
+      "c": 0,
+      "hand": "RH56E2",
+      "hand_short": "RH56H1",
+      "hand_full": "Inspire RH56H1",
+      "hand_full_zh": "因时 RH56H1 (24自由度)",
+      "dof": "24D",
+      "dataset": "DEXYCB",
+      "dataset_name": "DexYCB",
+      "category": "006_mustard_bottle",
+      "category_en": "Mustard Bottle",
+      "category_zh": "芥末酱瓶",
+      "keep_sides": [
+        "right"
+      ],
+      "motion_en": "+11.9 cm lift",
+      "motion_zh": "抓举 +11.9 cm",
+      "d_contact_mm": 1.6,
+      "trail_uv": [
+        [
+          0.5444,
+          0.6948
+        ],
+        [
+          0.5303,
+          0.6375
+        ],
+        [
+          0.533,
+          0.6203
+        ],
+        [
+          0.5399,
+          0.5985
+        ],
+        [
+          0.5517,
+          0.5099
+        ],
+        [
+          0.5511,
+          0.4235
+        ],
+        [
+          0.5597,
+          0.3973
+        ],
+        [
+          0.5772,
+          0.3813
+        ],
+        [
+          0.6017,
+          0.372
+        ]
+      ],
+      "n_frames": 16,
+      "width": 352,
+      "height": 240,
+      "video": "assets/videos/micro/g_r4c0.mp4",
+      "poster": "assets/posters/micro/g_r4c0.jpg",
+      "stroboscopic": "assets/stroboscopic/micro/g_r4c0.jpg"
+    },
+    {
+      "id": "g_r4c1",
+      "kind": "micro",
+      "r": 4,
+      "c": 1,
+      "hand": "RH56E2",
+      "hand_short": "RH56H1",
+      "hand_full": "Inspire RH56H1",
+      "hand_full_zh": "因时 RH56H1 (24自由度)",
+      "dof": "24D",
+      "dataset": "DEXYCB",
+      "dataset_name": "DexYCB",
+      "category": "021_bleach_cleanser",
+      "category_en": "Bleach Cleanser",
+      "category_zh": "清洁剂瓶",
+      "keep_sides": [
+        "right"
+      ],
+      "motion_en": "+17.1 cm lift",
+      "motion_zh": "抓举 +17.1 cm",
+      "d_contact_mm": 2.8,
+      "trail_uv": [
+        [
+          0.5959,
+          0.6604
+        ],
+        [
+          0.5975,
+          0.6147
+        ],
+        [
+          0.5801,
+          0.6022
+        ],
+        [
+          0.5704,
+          0.5211
+        ],
+        [
+          0.5511,
+          0.4048
+        ],
+        [
+          0.5193,
+          0.3689
+        ],
+        [
+          0.5363,
+          0.2996
+        ],
+        [
+          0.5472,
+          0.2825
+        ],
+        [
+          0.5265,
+          0.2375
+        ]
+      ],
+      "n_frames": 16,
+      "width": 352,
+      "height": 240,
+      "video": "assets/videos/micro/g_r4c1.mp4",
+      "poster": "assets/posters/micro/g_r4c1.jpg",
+      "stroboscopic": "assets/stroboscopic/micro/g_r4c1.jpg"
+    },
+    {
+      "id": "g_r4c2",
+      "kind": "micro",
+      "r": 4,
+      "c": 2,
+      "hand": "RH56E2",
+      "hand_short": "RH56H1",
+      "hand_full": "Inspire RH56H1",
+      "hand_full_zh": "因时 RH56H1 (24自由度)",
+      "dof": "24D",
+      "dataset": "DEXYCB",
+      "dataset_name": "DexYCB",
+      "category": "025_mug",
+      "category_en": "Ceramic Mug",
+      "category_zh": "陶瓷马克杯",
+      "keep_sides": [
+        "right"
+      ],
+      "motion_en": "+17.4 cm lift",
+      "motion_zh": "抓举 +17.4 cm",
+      "d_contact_mm": 0.5,
+      "trail_uv": [
+        [
+          0.3327,
+          0.7986
+        ],
+        [
+          0.2831,
+          0.7161
+        ],
+        [
+          0.3018,
+          0.4979
+        ],
+        [
+          0.3236,
+          0.3068
+        ],
+        [
+          0.3211,
+          0.2427
+        ],
+        [
+          0.323,
+          0.2402
+        ],
+        [
+          0.3498,
+          0.2345
+        ],
+        [
+          0.3345,
+          0.2366
+        ],
+        [
+          0.3365,
+          0.2524
+        ]
+      ],
+      "n_frames": 16,
+      "width": 352,
+      "height": 240,
+      "video": "assets/videos/micro/g_r4c2.mp4",
+      "poster": "assets/posters/micro/g_r4c2.jpg",
+      "stroboscopic": "assets/stroboscopic/micro/g_r4c2.jpg"
+    },
+    {
+      "id": "g_r5c0",
+      "kind": "micro",
+      "r": 5,
+      "c": 0,
+      "hand": "RH56E2",
+      "hand_short": "RH56H1",
+      "hand_full": "Inspire RH56H1",
+      "hand_full_zh": "因时 RH56H1 (24自由度)",
+      "dof": "24D",
+      "dataset": "DEXYCB",
+      "dataset_name": "DexYCB",
+      "category": "005_tomato_soup_can",
+      "category_en": "Tomato Soup Can",
+      "category_zh": "番茄汤罐头",
+      "keep_sides": [
+        "right"
+      ],
+      "motion_en": "+21.3 cm lift",
+      "motion_zh": "抓举 +21.3 cm",
+      "d_contact_mm": 1.0,
+      "trail_uv": [
+        [
+          0.5066,
+          0.7859
+        ],
+        [
+          0.5067,
+          0.7328
+        ],
+        [
+          0.5058,
+          0.6905
+        ],
+        [
+          0.4644,
+          0.5979
+        ],
+        [
+          0.3984,
+          0.4721
+        ],
+        [
+          0.3764,
+          0.3004
+        ],
+        [
+          0.3913,
+          0.2328
+        ],
+        [
+          0.3921,
+          0.2312
+        ],
+        [
+          0.3836,
+          0.2365
+        ]
+      ],
+      "n_frames": 16,
+      "width": 352,
+      "height": 240,
+      "video": "assets/videos/micro/g_r5c0.mp4",
+      "poster": "assets/posters/micro/g_r5c0.jpg",
+      "stroboscopic": "assets/stroboscopic/micro/g_r5c0.jpg"
+    },
+    {
+      "id": "g_r5c1",
+      "kind": "micro",
+      "r": 5,
+      "c": 1,
+      "hand": "RH56E2",
+      "hand_short": "RH56H1",
+      "hand_full": "Inspire RH56H1",
+      "hand_full_zh": "因时 RH56H1 (24自由度)",
+      "dof": "24D",
+      "dataset": "DEXYCB",
+      "dataset_name": "DexYCB",
+      "category": "004_sugar_box",
+      "category_en": "Sugar Box",
+      "category_zh": "方糖纸盒",
+      "keep_sides": [
+        "right"
+      ],
+      "motion_en": "+16.4 cm lift",
+      "motion_zh": "抓举 +16.4 cm",
+      "d_contact_mm": 3.6,
+      "trail_uv": [
+        [
+          0.5528,
+          0.8206
+        ],
+        [
+          0.5521,
+          0.7756
+        ],
+        [
+          0.5441,
+          0.7156
+        ],
+        [
+          0.531,
+          0.6869
+        ],
+        [
+          0.5239,
+          0.5941
+        ],
+        [
+          0.5514,
+          0.5389
+        ],
+        [
+          0.5562,
+          0.4995
+        ],
+        [
+          0.5432,
+          0.4296
+        ],
+        [
+          0.5395,
+          0.4013
+        ]
+      ],
+      "n_frames": 16,
+      "width": 352,
+      "height": 240,
+      "video": "assets/videos/micro/g_r5c1.mp4",
+      "poster": "assets/posters/micro/g_r5c1.jpg",
+      "stroboscopic": "assets/stroboscopic/micro/g_r5c1.jpg"
+    },
+    {
+      "id": "g_r5c2",
+      "kind": "micro",
+      "r": 5,
+      "c": 2,
+      "hand": "RH56E2",
+      "hand_short": "RH56H1",
+      "hand_full": "Inspire RH56H1",
+      "hand_full_zh": "因时 RH56H1 (24自由度)",
+      "dof": "24D",
+      "dataset": "DEXYCB",
+      "dataset_name": "DexYCB",
+      "category": "008_pudding_box",
+      "category_en": "Pudding Box",
+      "category_zh": "布丁方盒",
+      "keep_sides": [
+        "right"
+      ],
+      "motion_en": "+21.0 cm lift",
+      "motion_zh": "抓举 +21.0 cm",
+      "d_contact_mm": 1.1,
+      "trail_uv": [
+        [
+          0.5834,
+          0.7731
+        ],
+        [
+          0.5323,
+          0.5859
+        ],
+        [
+          0.4201,
+          0.3902
+        ],
+        [
+          0.3459,
+          0.2268
+        ],
+        [
+          0.2836,
+          0.1873
+        ],
+        [
+          0.2342,
+          0.2669
+        ],
+        [
+          0.2195,
+          0.319
+        ],
+        [
+          0.2388,
+          0.3016
+        ],
+        [
+          0.2555,
+          0.2732
+        ]
+      ],
+      "n_frames": 16,
+      "width": 352,
+      "height": 240,
+      "video": "assets/videos/micro/g_r5c2.mp4",
+      "poster": "assets/posters/micro/g_r5c2.jpg",
+      "stroboscopic": "assets/stroboscopic/micro/g_r5c2.jpg"
+    },
+    {
+      "id": "g_r4c3",
+      "kind": "micro",
+      "r": 4,
+      "c": 3,
+      "hand": "XHand",
+      "hand_short": "XHand1",
+      "hand_full": "RobotEra XHand1",
+      "hand_full_zh": "星动纪元 XHand1 (36自由度)",
+      "dof": "36D",
+      "dataset": "DEXYCB",
+      "dataset_name": "DexYCB",
+      "category": "004_sugar_box",
+      "category_en": "Sugar Box",
+      "category_zh": "方糖纸盒",
+      "keep_sides": [
+        "right"
+      ],
+      "motion_en": "+33.2 cm lift",
+      "motion_zh": "抓举 +33.2 cm",
+      "d_contact_mm": 1.4,
+      "trail_uv": [
+        [
+          0.4635,
+          0.8091
+        ],
+        [
+          0.4851,
+          0.743
+        ],
+        [
+          0.5284,
+          0.5529
+        ],
+        [
+          0.5593,
+          0.3969
+        ],
+        [
+          0.5552,
+          0.2963
+        ],
+        [
+          0.5563,
+          0.2696
+        ],
+        [
+          0.5431,
+          0.2655
+        ],
+        [
+          0.5454,
+          0.2758
+        ],
+        [
+          0.5452,
+          0.2795
+        ]
+      ],
+      "n_frames": 16,
+      "width": 352,
+      "height": 240,
+      "video": "assets/videos/micro/g_r4c3.mp4",
+      "poster": "assets/posters/micro/g_r4c3.jpg",
+      "stroboscopic": "assets/stroboscopic/micro/g_r4c3.jpg"
+    },
+    {
+      "id": "g_r4c4",
+      "kind": "micro",
+      "r": 4,
+      "c": 4,
+      "hand": "XHand",
+      "hand_short": "XHand1",
+      "hand_full": "RobotEra XHand1",
+      "hand_full_zh": "星动纪元 XHand1 (36自由度)",
+      "dof": "36D",
+      "dataset": "DEXYCB",
+      "dataset_name": "DexYCB",
+      "category": "006_mustard_bottle",
+      "category_en": "Mustard Bottle",
+      "category_zh": "芥末酱瓶",
+      "keep_sides": [
+        "right"
+      ],
+      "motion_en": "+26.5 cm lift",
+      "motion_zh": "抓举 +26.5 cm",
+      "d_contact_mm": 2.9,
+      "trail_uv": [
+        [
+          0.4476,
+          0.7157
+        ],
+        [
+          0.4612,
+          0.6662
+        ],
+        [
+          0.4844,
+          0.6334
+        ],
+        [
+          0.5415,
+          0.5553
+        ],
+        [
+          0.6373,
+          0.4301
+        ],
+        [
+          0.6574,
+          0.4145
+        ],
+        [
+          0.6771,
+          0.4025
+        ],
+        [
+          0.7013,
+          0.3634
+        ],
+        [
+          0.6966,
+          0.4084
+        ]
+      ],
+      "n_frames": 16,
+      "width": 352,
+      "height": 240,
+      "video": "assets/videos/micro/g_r4c4.mp4",
+      "poster": "assets/posters/micro/g_r4c4.jpg",
+      "stroboscopic": "assets/stroboscopic/micro/g_r4c4.jpg"
+    },
+    {
+      "id": "g_r4c5",
+      "kind": "micro",
+      "r": 4,
+      "c": 5,
+      "hand": "XHand",
+      "hand_short": "XHand1",
+      "hand_full": "RobotEra XHand1",
+      "hand_full_zh": "星动纪元 XHand1 (36自由度)",
+      "dof": "36D",
+      "dataset": "DEXYCB",
+      "dataset_name": "DexYCB",
+      "category": "021_bleach_cleanser",
+      "category_en": "Bleach Cleanser",
+      "category_zh": "清洁剂瓶",
+      "keep_sides": [
+        "right"
+      ],
+      "motion_en": "+30.4 cm lift",
+      "motion_zh": "抓举 +30.4 cm",
+      "d_contact_mm": 3.2,
+      "trail_uv": [
+        [
+          0.5909,
+          0.7496
+        ],
+        [
+          0.5645,
+          0.6549
+        ],
+        [
+          0.5432,
+          0.5618
+        ],
+        [
+          0.5115,
+          0.463
+        ],
+        [
+          0.5056,
+          0.397
+        ],
+        [
+          0.4999,
+          0.3521
+        ],
+        [
+          0.5033,
+          0.3455
+        ],
+        [
+          0.4978,
+          0.3337
+        ],
+        [
+          0.5026,
+          0.3267
+        ]
+      ],
+      "n_frames": 16,
+      "width": 352,
+      "height": 240,
+      "video": "assets/videos/micro/g_r4c5.mp4",
+      "poster": "assets/posters/micro/g_r4c5.jpg",
+      "stroboscopic": "assets/stroboscopic/micro/g_r4c5.jpg"
+    },
+    {
+      "id": "g_r5c3",
+      "kind": "micro",
+      "r": 5,
+      "c": 3,
+      "hand": "XHand",
+      "hand_short": "XHand1",
+      "hand_full": "RobotEra XHand1",
+      "hand_full_zh": "星动纪元 XHand1 (36自由度)",
+      "dof": "36D",
+      "dataset": "DEXYCB",
+      "dataset_name": "DexYCB",
+      "category": "025_mug",
+      "category_en": "Ceramic Mug",
+      "category_zh": "陶瓷马克杯",
+      "keep_sides": [
+        "right"
+      ],
+      "motion_en": "+17.3 cm lift",
+      "motion_zh": "抓举 +17.3 cm",
+      "d_contact_mm": 3.7,
+      "trail_uv": [
+        [
+          0.5872,
+          0.7747
+        ],
+        [
+          0.5904,
+          0.5777
+        ],
+        [
+          0.5809,
+          0.4327
+        ],
+        [
+          0.562,
+          0.3801
+        ],
+        [
+          0.567,
+          0.3222
+        ],
+        [
+          0.6054,
+          0.2629
+        ],
+        [
+          0.5572,
+          0.3131
+        ],
+        [
+          0.5801,
+          0.2246
+        ],
+        [
+          0.5644,
+          0.2153
+        ]
+      ],
+      "n_frames": 16,
+      "width": 352,
+      "height": 240,
+      "video": "assets/videos/micro/g_r5c3.mp4",
+      "poster": "assets/posters/micro/g_r5c3.jpg",
+      "stroboscopic": "assets/stroboscopic/micro/g_r5c3.jpg"
+    },
+    {
+      "id": "g_r5c4",
+      "kind": "micro",
+      "r": 5,
+      "c": 4,
+      "hand": "XHand",
+      "hand_short": "XHand1",
+      "hand_full": "RobotEra XHand1",
+      "hand_full_zh": "星动纪元 XHand1 (36自由度)",
+      "dof": "36D",
+      "dataset": "DEXYCB",
+      "dataset_name": "DexYCB",
+      "category": "002_master_chef_can",
+      "category_en": "Coffee Can",
+      "category_zh": "大号咖啡罐",
+      "keep_sides": [
+        "right"
+      ],
+      "motion_en": "+27.9 cm lift",
+      "motion_zh": "抓举 +27.9 cm",
+      "d_contact_mm": 2.5,
+      "trail_uv": [
+        [
+          0.5759,
+          0.7608
+        ],
+        [
+          0.5356,
+          0.6219
+        ],
+        [
+          0.5158,
+          0.476
+        ],
+        [
+          0.525,
+          0.3294
+        ],
+        [
+          0.5716,
+          0.2335
+        ],
+        [
+          0.5641,
+          0.2275
+        ],
+        [
+          0.5407,
+          0.276
+        ],
+        [
+          0.5132,
+          0.2841
+        ],
+        [
+          0.5118,
+          0.293
+        ]
+      ],
+      "n_frames": 16,
+      "width": 352,
+      "height": 240,
+      "video": "assets/videos/micro/g_r5c4.mp4",
+      "poster": "assets/posters/micro/g_r5c4.jpg",
+      "stroboscopic": "assets/stroboscopic/micro/g_r5c4.jpg"
+    },
+    {
+      "id": "g_r5c5",
+      "kind": "micro",
+      "r": 5,
+      "c": 5,
+      "hand": "XHand",
+      "hand_short": "XHand1",
+      "hand_full": "RobotEra XHand1",
+      "hand_full_zh": "星动纪元 XHand1 (36自由度)",
+      "dof": "36D",
+      "dataset": "DEXYCB",
+      "dataset_name": "DexYCB",
+      "category": "010_potted_meat_can",
+      "category_en": "Potted Meat Can",
+      "category_zh": "午餐肉罐头",
+      "keep_sides": [
+        "right"
+      ],
+      "motion_en": "+17.3 cm lift",
+      "motion_zh": "抓举 +17.3 cm",
+      "d_contact_mm": 1.1,
+      "trail_uv": [
+        [
+          0.6337,
+          0.7522
+        ],
+        [
+          0.6432,
+          0.6951
+        ],
+        [
+          0.6233,
+          0.6555
+        ],
+        [
+          0.6043,
+          0.5758
+        ],
+        [
+          0.5798,
+          0.5079
+        ],
+        [
+          0.5554,
+          0.4491
+        ],
+        [
+          0.5534,
+          0.3717
+        ],
+        [
+          0.5361,
+          0.3272
+        ],
+        [
+          0.5048,
+          0.2909
+        ]
+      ],
+      "n_frames": 16,
+      "width": 352,
+      "height": 240,
+      "video": "assets/videos/micro/g_r5c5.mp4",
+      "poster": "assets/posters/micro/g_r5c5.jpg",
+      "stroboscopic": "assets/stroboscopic/micro/g_r5c5.jpg"
+    },
+    {
+      "id": "g_r4c6",
+      "kind": "micro",
+      "r": 4,
+      "c": 6,
+      "hand": "Sharpa",
+      "hand_short": "Sharpa",
+      "hand_full": "Sharpa Wave",
+      "hand_full_zh": "Sharpa Wave (56自由度)",
+      "dof": "56D",
+      "dataset": "DEXYCB",
+      "dataset_name": "DexYCB",
+      "category": "010_potted_meat_can",
+      "category_en": "Potted Meat Can",
+      "category_zh": "午餐肉罐头",
+      "keep_sides": [
+        "right"
+      ],
+      "motion_en": "+35.7 cm lift",
+      "motion_zh": "抓举 +35.7 cm",
+      "d_contact_mm": 1.5,
+      "trail_uv": [
+        [
+          0.4401,
+          0.8302
+        ],
+        [
+          0.4747,
+          0.6822
+        ],
+        [
+          0.4916,
+          0.6158
+        ],
+        [
+          0.5287,
+          0.5148
+        ],
+        [
+          0.5665,
+          0.4173
+        ],
+        [
+          0.5742,
+          0.3421
+        ],
+        [
+          0.6111,
+          0.294
+        ],
+        [
+          0.6347,
+          0.2585
+        ],
+        [
+          0.6324,
+          0.2284
+        ]
+      ],
+      "n_frames": 16,
+      "width": 352,
+      "height": 240,
+      "video": "assets/videos/micro/g_r4c6.mp4",
+      "poster": "assets/posters/micro/g_r4c6.jpg",
+      "stroboscopic": "assets/stroboscopic/micro/g_r4c6.jpg"
+    },
+    {
+      "id": "g_r4c7",
+      "kind": "micro",
+      "r": 4,
+      "c": 7,
+      "hand": "Sharpa",
+      "hand_short": "Sharpa",
+      "hand_full": "Sharpa Wave",
+      "hand_full_zh": "Sharpa Wave (56自由度)",
+      "dof": "56D",
+      "dataset": "DEXYCB",
+      "dataset_name": "DexYCB",
+      "category": "006_mustard_bottle",
+      "category_en": "Mustard Bottle",
+      "category_zh": "芥末酱瓶",
+      "keep_sides": [
+        "left"
+      ],
+      "motion_en": "+34.2 cm lift",
+      "motion_zh": "抓举 +34.2 cm",
+      "d_contact_mm": 2.5,
+      "trail_uv": [
+        [
+          0.5225,
+          0.8408
+        ],
+        [
+          0.509,
+          0.7989
+        ],
+        [
+          0.4893,
+          0.6624
+        ],
+        [
+          0.4763,
+          0.5118
+        ],
+        [
+          0.4781,
+          0.4058
+        ],
+        [
+          0.4903,
+          0.3187
+        ],
+        [
+          0.4912,
+          0.2407
+        ],
+        [
+          0.5149,
+          0.1903
+        ],
+        [
+          0.5079,
+          0.178
+        ]
+      ],
+      "n_frames": 16,
+      "width": 352,
+      "height": 240,
+      "video": "assets/videos/micro/g_r4c7.mp4",
+      "poster": "assets/posters/micro/g_r4c7.jpg",
+      "stroboscopic": "assets/stroboscopic/micro/g_r4c7.jpg"
+    },
+    {
+      "id": "g_r4c8",
+      "kind": "micro",
+      "r": 4,
+      "c": 8,
+      "hand": "Sharpa",
+      "hand_short": "Sharpa",
+      "hand_full": "Sharpa Wave",
+      "hand_full_zh": "Sharpa Wave (56自由度)",
+      "dof": "56D",
+      "dataset": "DEXYCB",
+      "dataset_name": "DexYCB",
+      "category": "021_bleach_cleanser",
+      "category_en": "Bleach Cleanser",
+      "category_zh": "清洁剂瓶",
+      "keep_sides": [
+        "right"
+      ],
+      "motion_en": "+24.9 cm lift",
+      "motion_zh": "抓举 +24.9 cm",
+      "d_contact_mm": 1.3,
+      "trail_uv": [
+        [
+          0.4386,
+          0.6928
+        ],
+        [
+          0.4938,
+          0.5686
+        ],
+        [
+          0.6446,
+          0.4424
+        ],
+        [
+          0.7146,
+          0.4208
+        ],
+        [
+          0.7351,
+          0.41
+        ],
+        [
+          0.6997,
+          0.3582
+        ],
+        [
+          0.7154,
+          0.3249
+        ],
+        [
+          0.7532,
+          0.3289
+        ],
+        [
+          0.7373,
+          0.3332
+        ]
+      ],
+      "n_frames": 16,
+      "width": 352,
+      "height": 240,
+      "video": "assets/videos/micro/g_r4c8.mp4",
+      "poster": "assets/posters/micro/g_r4c8.jpg",
+      "stroboscopic": "assets/stroboscopic/micro/g_r4c8.jpg"
+    },
+    {
+      "id": "g_r5c6",
+      "kind": "micro",
+      "r": 5,
+      "c": 6,
+      "hand": "Sharpa",
+      "hand_short": "Sharpa",
+      "hand_full": "Sharpa Wave",
+      "hand_full_zh": "Sharpa Wave (56自由度)",
+      "dof": "56D",
+      "dataset": "DEXYCB",
+      "dataset_name": "DexYCB",
+      "category": "025_mug",
+      "category_en": "Ceramic Mug",
+      "category_zh": "陶瓷马克杯",
+      "keep_sides": [
+        "right"
+      ],
+      "motion_en": "+43.3 cm lift",
+      "motion_zh": "抓举 +43.3 cm",
+      "d_contact_mm": 2.7,
+      "trail_uv": [
+        [
+          0.4734,
+          0.8346
+        ],
+        [
+          0.4778,
+          0.7327
+        ],
+        [
+          0.4925,
+          0.6099
+        ],
+        [
+          0.5112,
+          0.4652
+        ],
+        [
+          0.5339,
+          0.3564
+        ],
+        [
+          0.5441,
+          0.3051
+        ],
+        [
+          0.5462,
+          0.2796
+        ],
+        [
+          0.5692,
+          0.2531
+        ],
+        [
+          0.5787,
+          0.2308
+        ]
+      ],
+      "n_frames": 16,
+      "width": 352,
+      "height": 240,
+      "video": "assets/videos/micro/g_r5c6.mp4",
+      "poster": "assets/posters/micro/g_r5c6.jpg",
+      "stroboscopic": "assets/stroboscopic/micro/g_r5c6.jpg"
+    },
+    {
+      "id": "g_r5c7",
+      "kind": "micro",
+      "r": 5,
+      "c": 7,
+      "hand": "Sharpa",
+      "hand_short": "Sharpa",
+      "hand_full": "Sharpa Wave",
+      "hand_full_zh": "Sharpa Wave (56自由度)",
+      "dof": "56D",
+      "dataset": "DEXYCB",
+      "dataset_name": "DexYCB",
+      "category": "002_master_chef_can",
+      "category_en": "Coffee Can",
+      "category_zh": "大号咖啡罐",
+      "keep_sides": [
+        "right"
+      ],
+      "motion_en": "+24.6 cm lift",
+      "motion_zh": "抓举 +24.6 cm",
+      "d_contact_mm": 0.9,
+      "trail_uv": [
+        [
+          0.4286,
+          0.6837
+        ],
+        [
+          0.4386,
+          0.6376
+        ],
+        [
+          0.4486,
+          0.5618
+        ],
+        [
+          0.4793,
+          0.502
+        ],
+        [
+          0.5282,
+          0.4627
+        ],
+        [
+          0.569,
+          0.4332
+        ],
+        [
+          0.6099,
+          0.3907
+        ],
+        [
+          0.6601,
+          0.3366
+        ],
+        [
+          0.6933,
+          0.3232
+        ]
+      ],
+      "n_frames": 16,
+      "width": 352,
+      "height": 240,
+      "video": "assets/videos/micro/g_r5c7.mp4",
+      "poster": "assets/posters/micro/g_r5c7.jpg",
+      "stroboscopic": "assets/stroboscopic/micro/g_r5c7.jpg"
+    },
+    {
+      "id": "g_r5c8",
+      "kind": "micro",
+      "r": 5,
+      "c": 8,
+      "hand": "Sharpa",
+      "hand_short": "Sharpa",
+      "hand_full": "Sharpa Wave",
+      "hand_full_zh": "Sharpa Wave (56自由度)",
+      "dof": "56D",
+      "dataset": "DEXYCB",
+      "dataset_name": "DexYCB",
+      "category": "008_pudding_box",
+      "category_en": "Pudding Box",
+      "category_zh": "布丁方盒",
+      "keep_sides": [
+        "left"
+      ],
+      "motion_en": "+14.2 cm lift",
+      "motion_zh": "抓举 +14.2 cm",
+      "d_contact_mm": 2.9,
+      "trail_uv": [
+        [
+          0.3844,
+          0.8157
+        ],
+        [
+          0.3757,
+          0.7894
+        ],
+        [
+          0.3785,
+          0.737
+        ],
+        [
+          0.3752,
+          0.6681
+        ],
+        [
+          0.3705,
+          0.6059
+        ],
+        [
+          0.4,
+          0.4661
+        ],
+        [
+          0.4497,
+          0.4228
+        ],
+        [
+          0.4852,
+          0.3932
+        ],
+        [
+          0.5028,
+          0.3873
+        ]
+      ],
+      "n_frames": 16,
+      "width": 352,
+      "height": 240,
+      "video": "assets/videos/micro/g_r5c8.mp4",
+      "poster": "assets/posters/micro/g_r5c8.jpg",
+      "stroboscopic": "assets/stroboscopic/micro/g_r5c8.jpg"
+    }
+  ]
+}
